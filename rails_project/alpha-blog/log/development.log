@@ -9766,3 +9766,2435 @@ Processing by ArticlesController#create as HTML
 Completed 200 OK in 35ms (Views: 30.9ms | ActiveRecord: 0.1ms)
 
 
+Started GET "/" for 73.136.30.55 at 2020-01-02 19:50:30 +0000
+Cannot render console from 73.136.30.55! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by WelcomeController#home as HTML
+  Rendering welcome/home.html.erb within layouts/application
+  Rendered welcome/home.html.erb within layouts/application (6.0ms)
+  Rendered layouts/_navigation.html.erb (0.7ms)
+  Rendered layouts/_message.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 220ms (Views: 212.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 73.136.30.55 at 2020-01-02 19:50:32 +0000
+Cannot render console from 73.136.30.55! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#home as HTML
+  Rendering welcome/home.html.erb within layouts/application
+  Rendered welcome/home.html.erb within layouts/application (0.4ms)
+  Rendered layouts/_navigation.html.erb (0.5ms)
+  Rendered layouts/_message.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 29ms (Views: 28.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/articles" for 73.136.30.55 at 2020-01-02 19:50:34 +0000
+Cannot render console from 73.136.30.55! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.3ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  Rendered articles/index.html.erb within layouts/application (6.5ms)
+  Rendered layouts/_navigation.html.erb (0.5ms)
+  Rendered layouts/_message.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 38ms (Views: 34.2ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/articles/new" for 73.136.30.55 at 2020-01-02 19:50:36 +0000
+Cannot render console from 73.136.30.55! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#new as HTML
+  Rendering articles/new.html.erb within layouts/application
+  Rendered articles/_form.html.erb (10.3ms)
+  Rendered articles/new.html.erb within layouts/application (11.5ms)
+  Rendered layouts/_navigation.html.erb (0.6ms)
+  Rendered layouts/_message.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 62ms (Views: 60.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/articles" for 73.136.30.55 at 2020-01-02 19:50:41 +0000
+Cannot render console from 73.136.30.55! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"1fr+0+N/cujXnuZG+hESY/X/4atfno+FrqRKLcPIfAXpi5VULFu/vu2ONzA/LHhdHrE7EA222e+RioK9OKte3w==", "article"=>{"title"=>"", "description"=>""}, "commit"=>"Create Article"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  Rendering articles/new.html.erb within layouts/application
+  Rendered articles/_form.html.erb (2.4ms)
+  Rendered articles/new.html.erb within layouts/application (3.5ms)
+  Rendered layouts/_navigation.html.erb (0.5ms)
+  Rendered layouts/_message.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 34ms (Views: 30.1ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/articles" for 73.136.30.55 at 2020-01-02 19:51:55 +0000
+Cannot render console from 73.136.30.55! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.1ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  Rendered articles/index.html.erb within layouts/application (2.4ms)
+  Rendered layouts/_navigation.html.erb (0.4ms)
+  Rendered layouts/_message.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 31ms (Views: 30.5ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/articles/new" for 73.136.30.55 at 2020-01-02 19:51:57 +0000
+Cannot render console from 73.136.30.55! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#new as HTML
+  Rendering articles/new.html.erb within layouts/application
+  Rendered articles/_form.html.erb (1.8ms)
+  Rendered articles/new.html.erb within layouts/application (3.0ms)
+  Rendered layouts/_navigation.html.erb (0.4ms)
+  Rendered layouts/_message.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 31ms (Views: 29.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/articles" for 73.136.30.55 at 2020-01-02 19:51:58 +0000
+Cannot render console from 73.136.30.55! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"P5fLy2sYQ+3k9fdManm9adERXaY2G36lSgYV1uTm2BoD5qBMpDyOu97lJjqvRNdXOl+HHWQzKM91KN1GH4X6wA==", "article"=>{"title"=>"", "description"=>""}, "commit"=>"Create Article"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  Rendering articles/new.html.erb within layouts/application
+  Rendered articles/_form.html.erb (2.4ms)
+  Rendered articles/new.html.erb within layouts/application (3.5ms)
+  Rendered layouts/_navigation.html.erb (0.6ms)
+  Rendered layouts/_message.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 47ms (Views: 43.4ms | ActiveRecord: 0.1ms)
+
+
+Started POST "/articles" for 73.136.30.55 at 2020-01-02 19:52:05 +0000
+Cannot render console from 73.136.30.55! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"y8xwdS6E4s3BwLtlDK7M6XaySzP5FDdVDmcPNy4i1OhIqiYg1GDyRrT0qjOhqbBhmqvf06CYkXlMdMhCjGFOCA==", "article"=>{"title"=>"", "description"=>""}, "commit"=>"Create Article"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  Rendering articles/new.html.erb within layouts/application
+  Rendered articles/_form.html.erb (2.5ms)
+  Rendered articles/new.html.erb within layouts/application (3.6ms)
+  Rendered layouts/_navigation.html.erb (0.5ms)
+  Rendered layouts/_message.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 35ms (Views: 31.1ms | ActiveRecord: 0.1ms)
+
+
+Started POST "/articles" for 73.136.30.55 at 2020-01-02 19:54:00 +0000
+Cannot render console from 73.136.30.55! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"gKZhEaXkIQVUx4L3LEyLgZxW3/VQAZSaDK1J7M2yvikDwDdEXwAxjiHzk6GBS/cJcE9LFQmNMrZOvo6Zb/EkyQ==", "article"=>{"title"=>"", "description"=>""}, "commit"=>"Create Article"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  Rendering articles/new.html.erb within layouts/application
+  Rendered articles/_form.html.erb (2.3ms)
+  Rendered articles/new.html.erb within layouts/application (3.4ms)
+  Rendered layouts/_navigation.html.erb (0.5ms)
+  Rendered layouts/_message.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 36ms (Views: 30.2ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/articles" for 73.136.30.55 at 2020-01-02 19:54:00 +0000
+Cannot render console from 73.136.30.55! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.1ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  Rendered articles/index.html.erb within layouts/application (3.4ms)
+  Rendered layouts/_navigation.html.erb (0.5ms)
+  Rendered layouts/_message.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 33ms (Views: 31.8ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/articles/new" for 73.136.30.55 at 2020-01-02 19:54:02 +0000
+Cannot render console from 73.136.30.55! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#new as HTML
+  Rendering articles/new.html.erb within layouts/application
+  Rendered articles/_form.html.erb (1.7ms)
+  Rendered articles/new.html.erb within layouts/application (2.9ms)
+  Rendered layouts/_navigation.html.erb (0.5ms)
+  Rendered layouts/_message.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 42ms (Views: 41.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/articles" for 73.136.30.55 at 2020-01-02 19:54:03 +0000
+Cannot render console from 73.136.30.55! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"k7g/d3ZRtE5N5MPU1H1mqjNMHYKHv7uvOtUsoeKnIfevyVTwuXV5GHf0EqIRQAyU2ALHOdWX7cUF++QxGcQDLQ==", "article"=>{"title"=>"", "description"=>""}, "commit"=>"Create Article"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  Rendering articles/new.html.erb within layouts/application
+  Rendered articles/_form.html.erb (2.5ms)
+  Rendered articles/new.html.erb within layouts/application (3.7ms)
+  Rendered layouts/_navigation.html.erb (0.5ms)
+  Rendered layouts/_message.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 35ms (Views: 31.2ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for 98.201.234.41 at 2020-01-03 17:07:39 +0000
+Cannot render console from 98.201.234.41! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by WelcomeController#home as HTML
+  Rendering welcome/home.html.erb within layouts/application
+  Rendered welcome/home.html.erb within layouts/application (8.7ms)
+  Rendered layouts/_navigation.html.erb (0.7ms)
+  Rendered layouts/_message.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 301ms (Views: 293.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/articles" for 98.201.234.41 at 2020-01-03 17:07:48 +0000
+Cannot render console from 98.201.234.41! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.4ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  Rendered articles/index.html.erb within layouts/application (7.0ms)
+  Rendered layouts/_navigation.html.erb (0.6ms)
+  Rendered layouts/_message.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 41ms (Views: 36.4ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/articles/new" for 98.201.234.41 at 2020-01-03 17:07:50 +0000
+Cannot render console from 98.201.234.41! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#new as HTML
+  Rendering articles/new.html.erb within layouts/application
+  Rendered articles/_form.html.erb (17.7ms)
+  Rendered articles/new.html.erb within layouts/application (19.3ms)
+  Rendered layouts/_navigation.html.erb (0.6ms)
+  Rendered layouts/_message.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 51ms (Views: 49.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/articles" for 98.201.234.41 at 2020-01-03 17:07:54 +0000
+Cannot render console from 98.201.234.41! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"3Gq15Rsr3DWrc6fwQvVw33gH+VN4ehTgQgbS24HW4dngG95i1A8RY5FjdoaHyBrhk0kj6CpSQop9KBpLerXDAw==", "article"=>{"title"=>"", "description"=>""}, "commit"=>"Create Article"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  Rendering articles/new.html.erb within layouts/application
+  Rendered articles/_form.html.erb (2.7ms)
+  Rendered articles/new.html.erb within layouts/application (21.9ms)
+  Rendered layouts/_navigation.html.erb (0.5ms)
+  Rendered layouts/_message.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 61ms (Views: 56.2ms | ActiveRecord: 0.1ms)
+
+
+Started POST "/articles" for 98.201.234.41 at 2020-01-03 17:07:56 +0000
+Cannot render console from 98.201.234.41! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Lk7NgcBqLY2Gus8qSzVDneeXvd6q/WLVT4BzANBuWuytKJvUOo49BvOO3nzmMj8VC44pPvNxxPkNk7R1ci3ADA==", "article"=>{"title"=>"", "description"=>""}, "commit"=>"Create Article"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  Rendering articles/new.html.erb within layouts/application
+  Rendered articles/_form.html.erb (2.7ms)
+  Rendered articles/new.html.erb within layouts/application (3.9ms)
+  Rendered layouts/_navigation.html.erb (0.5ms)
+  Rendered layouts/_message.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 43ms (Views: 38.7ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/articles" for 98.201.234.41 at 2020-01-03 17:07:58 +0000
+Cannot render console from 98.201.234.41! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.2ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  Rendered articles/index.html.erb within layouts/application (2.7ms)
+  Rendered layouts/_navigation.html.erb (0.6ms)
+  Rendered layouts/_message.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 34ms (Views: 32.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/articles/new" for 98.201.234.41 at 2020-01-03 17:07:59 +0000
+Cannot render console from 98.201.234.41! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#new as HTML
+  Rendering articles/new.html.erb within layouts/application
+  Rendered articles/_form.html.erb (2.0ms)
+  Rendered articles/new.html.erb within layouts/application (3.3ms)
+  Rendered layouts/_navigation.html.erb (0.5ms)
+  Rendered layouts/_message.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 33ms (Views: 32.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/articles/new" for 98.201.234.41 at 2020-01-03 17:08:03 +0000
+Cannot render console from 98.201.234.41! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#new as HTML
+  Rendering articles/new.html.erb within layouts/application
+  Rendered articles/_form.html.erb (2.1ms)
+  Rendered articles/new.html.erb within layouts/application (3.3ms)
+  Rendered layouts/_navigation.html.erb (0.6ms)
+  Rendered layouts/_message.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 46ms (Views: 45.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/articles/new" for 98.201.234.41 at 2020-01-03 17:09:18 +0000
+Cannot render console from 98.201.234.41! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#new as HTML
+  Rendering articles/new.html.erb within layouts/application
+  Rendered articles/_form.html.erb (1.9ms)
+  Rendered articles/new.html.erb within layouts/application (3.3ms)
+  Rendered layouts/_navigation.html.erb (0.5ms)
+  Rendered layouts/_message.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 33ms (Views: 32.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/articles/new" for 98.201.234.41 at 2020-01-03 17:09:35 +0000
+Cannot render console from 98.201.234.41! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#new as HTML
+  Rendering articles/new.html.erb within layouts/application
+  Rendered articles/_form.html.erb (2.0ms)
+  Rendered articles/new.html.erb within layouts/application (3.8ms)
+  Rendered layouts/_navigation.html.erb (0.5ms)
+  Rendered layouts/_message.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 35ms (Views: 34.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/articles/new" for 98.201.234.41 at 2020-01-03 17:29:57 +0000
+Cannot render console from 98.201.234.41! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#new as HTML
+  Rendering articles/new.html.erb within layouts/application
+  Rendered articles/_form.html.erb (2.1ms)
+  Rendered articles/new.html.erb within layouts/application (3.5ms)
+  Rendered layouts/_navigation.html.erb (0.5ms)
+  Rendered layouts/_message.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 35ms (Views: 33.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/articles" for 98.201.234.41 at 2020-01-03 17:30:06 +0000
+Cannot render console from 98.201.234.41! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"vqNrahxUL2hmvwst4nXpTwCIkhHGmYRz3+2ynIKdkB89xT0/5rA/4xOLGntPcpXH7JEG8Z8VIl+d/nXpIN4K/w==", "article"=>{"title"=>"", "description"=>""}, "commit"=>"Create Article"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  Rendering articles/new.html.erb within layouts/application
+  Rendered articles/_form.html.erb (2.7ms)
+  Rendered articles/new.html.erb within layouts/application (3.9ms)
+  Rendered layouts/_navigation.html.erb (0.6ms)
+  Rendered layouts/_message.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 52ms (Views: 47.3ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/articles" for 98.201.234.41 at 2020-01-03 17:31:34 +0000
+Cannot render console from 98.201.234.41! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.2ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  Rendered articles/index.html.erb within layouts/application (2.5ms)
+  Rendered layouts/_navigation.html.erb (0.5ms)
+  Rendered layouts/_message.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 32ms (Views: 31.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/articles/new" for 98.201.234.41 at 2020-01-03 17:31:35 +0000
+Cannot render console from 98.201.234.41! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#new as HTML
+  Rendering articles/new.html.erb within layouts/application
+  Rendered articles/_form.html.erb (2.1ms)
+  Rendered articles/new.html.erb within layouts/application (3.4ms)
+  Rendered layouts/_navigation.html.erb (0.6ms)
+  Rendered layouts/_message.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 34ms (Views: 32.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/articles/new" for 98.201.234.41 at 2020-01-03 17:33:23 +0000
+Cannot render console from 98.201.234.41! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#new as HTML
+  Rendering articles/new.html.erb within layouts/application
+  Rendered articles/_form.html.erb (1.9ms)
+  Rendered articles/new.html.erb within layouts/application (3.2ms)
+  Rendered layouts/_navigation.html.erb (0.5ms)
+  Rendered layouts/_message.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 33ms (Views: 31.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/articles" for 98.201.234.41 at 2020-01-03 17:33:28 +0000
+Cannot render console from 98.201.234.41! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"2pn0bk+hOg/aGSg6yiz5Ezq89vcTMJgO0JnjxVD0pGdZ/6I7tUUqhK8tOWxnK4Wb1qViF0q8PiKSiiSw8rc+hw==", "article"=>{"title"=>"", "description"=>""}, "commit"=>"Create Article"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  Rendering articles/new.html.erb within layouts/application
+  Rendered articles/_form.html.erb (2.6ms)
+  Rendered articles/new.html.erb within layouts/application (3.8ms)
+  Rendered layouts/_navigation.html.erb (0.6ms)
+  Rendered layouts/_message.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 52ms (Views: 47.5ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/articles" for 98.201.234.41 at 2020-01-03 17:33:35 +0000
+Cannot render console from 98.201.234.41! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.2ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  Rendered articles/index.html.erb within layouts/application (2.5ms)
+  Rendered layouts/_navigation.html.erb (0.5ms)
+  Rendered layouts/_message.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 34ms (Views: 32.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/articles/2/edit" for 98.201.234.41 at 2020-01-03 17:33:37 +0000
+Cannot render console from 98.201.234.41! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#edit as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mArticle Load (0.2ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" WHERE "articles"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering articles/edit.html.erb within layouts/application
+  Rendered articles/_form.html.erb (2.1ms)
+  Rendered articles/edit.html.erb within layouts/application (3.3ms)
+  Rendered layouts/_navigation.html.erb (0.6ms)
+  Rendered layouts/_message.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 37ms (Views: 32.4ms | ActiveRecord: 0.2ms)
+
+
+Started PATCH "/articles/2" for 98.201.234.41 at 2020-01-03 17:33:40 +0000
+Cannot render console from 98.201.234.41! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"1vLbdjGdfbRzha1Ik9h1cnPw+jd8sVXJmNv3KGdsuZ68xO3Xy+9Ct8Lnre2oz1YMCdMaKkKQ3wr0nvMKCufHrQ==", "article"=>{"title"=>"Article II", "description"=>"Roman numeral :o"}, "commit"=>"Update Article", "id"=>"2"}
+  [1m[36mArticle Load (0.2ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" WHERE "articles"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+Redirected to https://c8f2d5cb7aa7415bac27d2414037e555.vfs.cloud9.us-east-2.amazonaws.com/articles/2
+Completed 302 Found in 5ms (ActiveRecord: 0.3ms)
+
+
+Started GET "/articles/2" for 98.201.234.41 at 2020-01-03 17:33:40 +0000
+Cannot render console from 98.201.234.41! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mArticle Load (0.1ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" WHERE "articles"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering articles/show.html.erb within layouts/application
+  Rendered articles/show.html.erb within layouts/application (0.6ms)
+  Rendered layouts/_navigation.html.erb (0.5ms)
+  Rendered layouts/_message.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 32ms (Views: 30.0ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/articles/2/edit" for 98.201.234.41 at 2020-01-03 17:33:42 +0000
+Cannot render console from 98.201.234.41! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#edit as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mArticle Load (0.1ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" WHERE "articles"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering articles/edit.html.erb within layouts/application
+  Rendered articles/_form.html.erb (2.1ms)
+  Rendered articles/edit.html.erb within layouts/application (3.3ms)
+  Rendered layouts/_navigation.html.erb (0.6ms)
+  Rendered layouts/_message.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 46ms (Views: 44.5ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/articles" for 98.201.234.41 at 2020-01-03 17:33:44 +0000
+Cannot render console from 98.201.234.41! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.2ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  Rendered articles/index.html.erb within layouts/application (2.7ms)
+  Rendered layouts/_navigation.html.erb (0.4ms)
+  Rendered layouts/_message.html.erb (2.0ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 34ms (Views: 33.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/articles/2" for 98.201.234.41 at 2020-01-03 17:33:45 +0000
+Cannot render console from 98.201.234.41! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mArticle Load (0.1ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" WHERE "articles"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering articles/show.html.erb within layouts/application
+  Rendered articles/show.html.erb within layouts/application (0.6ms)
+  Rendered layouts/_navigation.html.erb (0.5ms)
+  Rendered layouts/_message.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 32ms (Views: 29.5ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/articles" for 98.201.234.41 at 2020-01-03 17:33:47 +0000
+Cannot render console from 98.201.234.41! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.2ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  Rendered articles/index.html.erb within layouts/application (2.5ms)
+  Rendered layouts/_navigation.html.erb (0.4ms)
+  Rendered layouts/_message.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 32ms (Views: 30.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/articles/new" for 98.201.234.41 at 2020-01-03 17:33:48 +0000
+Cannot render console from 98.201.234.41! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#new as HTML
+  Rendering articles/new.html.erb within layouts/application
+  Rendered articles/_form.html.erb (2.1ms)
+  Rendered articles/new.html.erb within layouts/application (3.4ms)
+  Rendered layouts/_navigation.html.erb (0.6ms)
+  Rendered layouts/_message.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 46ms (Views: 44.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/articles/new" for 98.201.234.41 at 2020-01-03 17:36:57 +0000
+Cannot render console from 98.201.234.41! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#new as HTML
+  Rendering articles/new.html.erb within layouts/application
+  Rendered articles/_form.html.erb (2.0ms)
+  Rendered articles/new.html.erb within layouts/application (3.3ms)
+  Rendered layouts/_navigation.html.erb (0.5ms)
+  Rendered layouts/_message.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 33ms (Views: 32.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/articles" for 98.201.234.41 at 2020-01-03 17:36:58 +0000
+Cannot render console from 98.201.234.41! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"hUQ/84+bW8cROcX42pq67MIG5pj5Jj94FbpFR1TMKG4GImmmdX9LTGQN1K53ncZkLh9yeKCqmVRXqYIy9o+yjg==", "article"=>{"title"=>"", "description"=>""}, "commit"=>"Create Article"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  Rendering articles/new.html.erb within layouts/application
+  Rendered articles/_form.html.erb (2.7ms)
+  Rendered articles/new.html.erb within layouts/application (4.0ms)
+  Rendered layouts/_navigation.html.erb (0.5ms)
+  Rendered layouts/_message.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 38ms (Views: 33.2ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/articles" for 98.201.234.41 at 2020-01-03 17:37:10 +0000
+Cannot render console from 98.201.234.41! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.2ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  Rendered articles/index.html.erb within layouts/application (2.4ms)
+  Rendered layouts/_navigation.html.erb (0.5ms)
+  Rendered layouts/_message.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 32ms (Views: 30.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/articles/new" for 98.201.234.41 at 2020-01-03 17:37:12 +0000
+Cannot render console from 98.201.234.41! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#new as HTML
+  Rendering articles/new.html.erb within layouts/application
+  Rendered articles/_form.html.erb (0.8ms)
+  Rendered articles/new.html.erb within layouts/application (2.1ms)
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/home/ubuntu/environment/rails_project/alpha-blog/app/views/articles/_form.html.erb:15: syntax error, unexpected end, expecting ')'
+...ze;                         end  
+...                            ^~~
+/home/ubuntu/environment/rails_project/alpha-blog/app/views/articles/_form.html.erb:61: syntax error, unexpected ensure, expecting ')'
+          ensure
+          ^~~~~~
+/home/ubuntu/environment/rails_project/alpha-blog/app/views/articles/_form.html.erb:63: syntax error, unexpected end, expecting ')'
+          end
+          ^~~):
+  
+app/views/articles/_form.html.erb:15: syntax error, unexpected end, expecting ')'
+app/views/articles/_form.html.erb:61: syntax error, unexpected ensure, expecting ')'
+app/views/articles/_form.html.erb:63: syntax error, unexpected end, expecting ')'
+app/views/articles/new.html.erb:2:in `_app_views_articles_new_html_erb__3561729875720697165_69878348366800'
+  Rendering /home/ubuntu/.rvm/gems/ruby-2.6.3/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /home/ubuntu/.rvm/gems/ruby-2.6.3/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /home/ubuntu/.rvm/gems/ruby-2.6.3/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (4.0ms)
+  Rendering /home/ubuntu/.rvm/gems/ruby-2.6.3/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/ubuntu/.rvm/gems/ruby-2.6.3/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.7ms)
+  Rendering /home/ubuntu/.rvm/gems/ruby-2.6.3/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/ubuntu/.rvm/gems/ruby-2.6.3/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.6ms)
+  Rendered /home/ubuntu/.rvm/gems/ruby-2.6.3/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (25.3ms)
+Started GET "/articles/new" for 98.201.234.41 at 2020-01-03 17:38:20 +0000
+Cannot render console from 98.201.234.41! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#new as HTML
+  Rendering articles/new.html.erb within layouts/application
+  Rendered articles/_form.html.erb (1.0ms)
+  Rendered articles/new.html.erb within layouts/application (4.0ms)
+Completed 500 Internal Server Error in 7ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/home/ubuntu/environment/rails_project/alpha-blog/app/views/articles/_form.html.erb:22: syntax error, unexpected end, expecting ')'
+'.freeze;end
+         ^~~
+/home/ubuntu/environment/rails_project/alpha-blog/app/views/articles/_form.html.erb:61: syntax error, unexpected ensure, expecting ')'
+          ensure
+          ^~~~~~
+/home/ubuntu/environment/rails_project/alpha-blog/app/views/articles/_form.html.erb:63: syntax error, unexpected end, expecting ')'
+          end
+          ^~~):
+  
+app/views/articles/_form.html.erb:22: syntax error, unexpected end, expecting ')'
+app/views/articles/_form.html.erb:61: syntax error, unexpected ensure, expecting ')'
+app/views/articles/_form.html.erb:63: syntax error, unexpected end, expecting ')'
+app/views/articles/new.html.erb:2:in `_app_views_articles_new_html_erb__3561729875720697165_69878283359540'
+  Rendering /home/ubuntu/.rvm/gems/ruby-2.6.3/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /home/ubuntu/.rvm/gems/ruby-2.6.3/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /home/ubuntu/.rvm/gems/ruby-2.6.3/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (28.1ms)
+  Rendering /home/ubuntu/.rvm/gems/ruby-2.6.3/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/ubuntu/.rvm/gems/ruby-2.6.3/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.8ms)
+  Rendering /home/ubuntu/.rvm/gems/ruby-2.6.3/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/ubuntu/.rvm/gems/ruby-2.6.3/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.6ms)
+  Rendered /home/ubuntu/.rvm/gems/ruby-2.6.3/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (43.0ms)
+Started GET "/articles/new" for 98.201.234.41 at 2020-01-03 17:38:56 +0000
+Cannot render console from 98.201.234.41! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#new as HTML
+  Rendering articles/new.html.erb within layouts/application
+  Rendered articles/_form.html.erb (0.9ms)
+  Rendered articles/new.html.erb within layouts/application (2.2ms)
+Completed 500 Internal Server Error in 6ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/home/ubuntu/environment/rails_project/alpha-blog/app/views/articles/_form.html.erb:15: syntax error, unexpected end, expecting ')'
+...ze;                         end  
+...                            ^~~
+/home/ubuntu/environment/rails_project/alpha-blog/app/views/articles/_form.html.erb:21: syntax error, unexpected end, expecting ')'
+'.freeze;    end
+             ^~~
+/home/ubuntu/environment/rails_project/alpha-blog/app/views/articles/_form.html.erb:62: syntax error, unexpected ensure, expecting ')'
+          ensure
+          ^~~~~~
+/home/ubuntu/environment/rails_project/alpha-blog/app/views/articles/_form.html.erb:64: syntax error, unexpected end, expecting ')'
+          end
+          ^~~):
+  
+app/views/articles/_form.html.erb:15: syntax error, unexpected end, expecting ')'
+app/views/articles/_form.html.erb:21: syntax error, unexpected end, expecting ')'
+app/views/articles/_form.html.erb:62: syntax error, unexpected ensure, expecting ')'
+app/views/articles/_form.html.erb:64: syntax error, unexpected end, expecting ')'
+app/views/articles/new.html.erb:2:in `_app_views_articles_new_html_erb__3561729875720697165_69878286927240'
+  Rendering /home/ubuntu/.rvm/gems/ruby-2.6.3/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /home/ubuntu/.rvm/gems/ruby-2.6.3/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /home/ubuntu/.rvm/gems/ruby-2.6.3/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (3.8ms)
+  Rendering /home/ubuntu/.rvm/gems/ruby-2.6.3/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/ubuntu/.rvm/gems/ruby-2.6.3/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.7ms)
+  Rendering /home/ubuntu/.rvm/gems/ruby-2.6.3/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/ubuntu/.rvm/gems/ruby-2.6.3/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.6ms)
+  Rendered /home/ubuntu/.rvm/gems/ruby-2.6.3/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (18.5ms)
+Started GET "/articles/new" for 98.201.234.41 at 2020-01-03 17:40:02 +0000
+Cannot render console from 98.201.234.41! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#new as HTML
+  Rendering articles/new.html.erb within layouts/application
+  Rendered articles/_form.html.erb (0.9ms)
+  Rendered articles/new.html.erb within layouts/application (2.2ms)
+Completed 500 Internal Server Error in 6ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/home/ubuntu/environment/rails_project/alpha-blog/app/views/articles/_form.html.erb:21: syntax error, unexpected end, expecting ')'
+'.freeze;    end
+             ^~~
+/home/ubuntu/environment/rails_project/alpha-blog/app/views/articles/_form.html.erb:62: syntax error, unexpected ensure, expecting ')'
+          ensure
+          ^~~~~~
+/home/ubuntu/environment/rails_project/alpha-blog/app/views/articles/_form.html.erb:64: syntax error, unexpected end, expecting ')'
+          end
+          ^~~):
+  
+app/views/articles/_form.html.erb:21: syntax error, unexpected end, expecting ')'
+app/views/articles/_form.html.erb:62: syntax error, unexpected ensure, expecting ')'
+app/views/articles/_form.html.erb:64: syntax error, unexpected end, expecting ')'
+app/views/articles/new.html.erb:2:in `_app_views_articles_new_html_erb__3561729875720697165_69878284849540'
+  Rendering /home/ubuntu/.rvm/gems/ruby-2.6.3/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /home/ubuntu/.rvm/gems/ruby-2.6.3/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /home/ubuntu/.rvm/gems/ruby-2.6.3/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (4.1ms)
+  Rendering /home/ubuntu/.rvm/gems/ruby-2.6.3/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/ubuntu/.rvm/gems/ruby-2.6.3/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.7ms)
+  Rendering /home/ubuntu/.rvm/gems/ruby-2.6.3/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/ubuntu/.rvm/gems/ruby-2.6.3/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.6ms)
+  Rendered /home/ubuntu/.rvm/gems/ruby-2.6.3/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (18.2ms)
+Started GET "/articles/new" for 98.201.234.41 at 2020-01-03 17:40:15 +0000
+Cannot render console from 98.201.234.41! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#new as HTML
+  Rendering articles/new.html.erb within layouts/application
+  Rendered articles/_form.html.erb (1.0ms)
+  Rendered articles/new.html.erb within layouts/application (2.4ms)
+Completed 500 Internal Server Error in 6ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/home/ubuntu/environment/rails_project/alpha-blog/app/views/articles/_form.html.erb:21: syntax error, unexpected end, expecting ')'
+'.freeze;     end 
+              ^~~
+/home/ubuntu/environment/rails_project/alpha-blog/app/views/articles/_form.html.erb:62: syntax error, unexpected ensure, expecting ')'
+          ensure
+          ^~~~~~
+/home/ubuntu/environment/rails_project/alpha-blog/app/views/articles/_form.html.erb:64: syntax error, unexpected end, expecting ')'
+          end
+          ^~~):
+  
+app/views/articles/_form.html.erb:21: syntax error, unexpected end, expecting ')'
+app/views/articles/_form.html.erb:62: syntax error, unexpected ensure, expecting ')'
+app/views/articles/_form.html.erb:64: syntax error, unexpected end, expecting ')'
+app/views/articles/new.html.erb:2:in `_app_views_articles_new_html_erb__3561729875720697165_69878287785600'
+  Rendering /home/ubuntu/.rvm/gems/ruby-2.6.3/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /home/ubuntu/.rvm/gems/ruby-2.6.3/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /home/ubuntu/.rvm/gems/ruby-2.6.3/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (3.8ms)
+  Rendering /home/ubuntu/.rvm/gems/ruby-2.6.3/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/ubuntu/.rvm/gems/ruby-2.6.3/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.6ms)
+  Rendering /home/ubuntu/.rvm/gems/ruby-2.6.3/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/ubuntu/.rvm/gems/ruby-2.6.3/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.6ms)
+  Rendered /home/ubuntu/.rvm/gems/ruby-2.6.3/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (18.1ms)
+Started GET "/articles/new" for 98.201.234.41 at 2020-01-03 17:40:29 +0000
+Cannot render console from 98.201.234.41! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#new as HTML
+  Rendering articles/new.html.erb within layouts/application
+  Rendered articles/_form.html.erb (0.8ms)
+  Rendered articles/new.html.erb within layouts/application (2.1ms)
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/home/ubuntu/environment/rails_project/alpha-blog/app/views/articles/_form.html.erb:21: syntax error, unexpected end, expecting ')'
+'.freeze;     end 
+              ^~~
+/home/ubuntu/environment/rails_project/alpha-blog/app/views/articles/_form.html.erb:62: syntax error, unexpected ensure, expecting ')'
+          ensure
+          ^~~~~~
+/home/ubuntu/environment/rails_project/alpha-blog/app/views/articles/_form.html.erb:64: syntax error, unexpected end, expecting ')'
+          end
+          ^~~):
+  
+app/views/articles/_form.html.erb:21: syntax error, unexpected end, expecting ')'
+app/views/articles/_form.html.erb:62: syntax error, unexpected ensure, expecting ')'
+app/views/articles/_form.html.erb:64: syntax error, unexpected end, expecting ')'
+app/views/articles/new.html.erb:2:in `_app_views_articles_new_html_erb__3561729875720697165_69878284717540'
+  Rendering /home/ubuntu/.rvm/gems/ruby-2.6.3/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /home/ubuntu/.rvm/gems/ruby-2.6.3/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /home/ubuntu/.rvm/gems/ruby-2.6.3/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (3.9ms)
+  Rendering /home/ubuntu/.rvm/gems/ruby-2.6.3/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/ubuntu/.rvm/gems/ruby-2.6.3/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.6ms)
+  Rendering /home/ubuntu/.rvm/gems/ruby-2.6.3/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/ubuntu/.rvm/gems/ruby-2.6.3/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.6ms)
+  Rendered /home/ubuntu/.rvm/gems/ruby-2.6.3/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (17.9ms)
+Started GET "/articles/new" for 98.201.234.41 at 2020-01-03 17:40:55 +0000
+Cannot render console from 98.201.234.41! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#new as HTML
+  Rendering articles/new.html.erb within layouts/application
+  Rendered articles/_form.html.erb (0.9ms)
+  Rendered articles/new.html.erb within layouts/application (2.2ms)
+Completed 500 Internal Server Error in 6ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/home/ubuntu/environment/rails_project/alpha-blog/app/views/articles/_form.html.erb:21: syntax error, unexpected end, expecting ')'
+'.freeze;     end 
+              ^~~
+/home/ubuntu/environment/rails_project/alpha-blog/app/views/articles/_form.html.erb:62: syntax error, unexpected ensure, expecting ')'
+          ensure
+          ^~~~~~
+/home/ubuntu/environment/rails_project/alpha-blog/app/views/articles/_form.html.erb:64: syntax error, unexpected end, expecting ')'
+          end
+          ^~~):
+  
+app/views/articles/_form.html.erb:21: syntax error, unexpected end, expecting ')'
+app/views/articles/_form.html.erb:62: syntax error, unexpected ensure, expecting ')'
+app/views/articles/_form.html.erb:64: syntax error, unexpected end, expecting ')'
+app/views/articles/new.html.erb:2:in `_app_views_articles_new_html_erb__3561729875720697165_69878284884760'
+  Rendering /home/ubuntu/.rvm/gems/ruby-2.6.3/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /home/ubuntu/.rvm/gems/ruby-2.6.3/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /home/ubuntu/.rvm/gems/ruby-2.6.3/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (4.1ms)
+  Rendering /home/ubuntu/.rvm/gems/ruby-2.6.3/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/ubuntu/.rvm/gems/ruby-2.6.3/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.6ms)
+  Rendering /home/ubuntu/.rvm/gems/ruby-2.6.3/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/ubuntu/.rvm/gems/ruby-2.6.3/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.6ms)
+  Rendered /home/ubuntu/.rvm/gems/ruby-2.6.3/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (18.0ms)
+Started GET "/articles/new" for 98.201.234.41 at 2020-01-03 17:41:05 +0000
+Cannot render console from 98.201.234.41! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#new as HTML
+  Rendering articles/new.html.erb within layouts/application
+  Rendered articles/_form.html.erb (2.1ms)
+  Rendered articles/new.html.erb within layouts/application (3.3ms)
+  Rendered layouts/_navigation.html.erb (0.6ms)
+  Rendered layouts/_message.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 33ms (Views: 32.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/articles" for 98.201.234.41 at 2020-01-03 17:41:07 +0000
+Cannot render console from 98.201.234.41! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"hInU6NpvLQCINiABhr5XjYfmIUiW1smQ0AOnD7sfleIH74K9IIs9i/0CMVcruSsFa/+1qM9ab7ySEGB6GVwPAg==", "article"=>{"title"=>"", "description"=>""}, "commit"=>"Create Article"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  Rendering articles/new.html.erb within layouts/application
+  Rendered articles/_form.html.erb (2.7ms)
+  Rendered articles/new.html.erb within layouts/application (3.9ms)
+  Rendered layouts/_navigation.html.erb (0.5ms)
+  Rendered layouts/_message.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 37ms (Views: 33.0ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/articles" for 98.201.234.41 at 2020-01-03 17:41:49 +0000
+Cannot render console from 98.201.234.41! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.2ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  Rendered articles/index.html.erb within layouts/application (3.2ms)
+  Rendered layouts/_navigation.html.erb (0.5ms)
+  Rendered layouts/_message.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 33ms (Views: 31.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/articles/new" for 98.201.234.41 at 2020-01-03 17:41:51 +0000
+Cannot render console from 98.201.234.41! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#new as HTML
+  Rendering articles/new.html.erb within layouts/application
+  Rendered articles/_form.html.erb (0.8ms)
+  Rendered articles/new.html.erb within layouts/application (2.0ms)
+Completed 500 Internal Server Error in 6ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/home/ubuntu/environment/rails_project/alpha-blog/app/views/articles/_form.html.erb:21: syntax error, unexpected end, expecting ')'
+'.freeze;     end 
+              ^~~
+/home/ubuntu/environment/rails_project/alpha-blog/app/views/articles/_form.html.erb:62: syntax error, unexpected ensure, expecting ')'
+          ensure
+          ^~~~~~
+/home/ubuntu/environment/rails_project/alpha-blog/app/views/articles/_form.html.erb:64: syntax error, unexpected end, expecting ')'
+          end
+          ^~~):
+  
+app/views/articles/_form.html.erb:21: syntax error, unexpected end, expecting ')'
+app/views/articles/_form.html.erb:62: syntax error, unexpected ensure, expecting ')'
+app/views/articles/_form.html.erb:64: syntax error, unexpected end, expecting ')'
+app/views/articles/new.html.erb:2:in `_app_views_articles_new_html_erb__3561729875720697165_69878347521260'
+  Rendering /home/ubuntu/.rvm/gems/ruby-2.6.3/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /home/ubuntu/.rvm/gems/ruby-2.6.3/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /home/ubuntu/.rvm/gems/ruby-2.6.3/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (3.8ms)
+  Rendering /home/ubuntu/.rvm/gems/ruby-2.6.3/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/ubuntu/.rvm/gems/ruby-2.6.3/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.6ms)
+  Rendering /home/ubuntu/.rvm/gems/ruby-2.6.3/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/ubuntu/.rvm/gems/ruby-2.6.3/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.6ms)
+  Rendered /home/ubuntu/.rvm/gems/ruby-2.6.3/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (18.3ms)
+Started GET "/articles/new" for 98.201.234.41 at 2020-01-03 17:42:42 +0000
+Cannot render console from 98.201.234.41! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#new as HTML
+  Rendering articles/new.html.erb within layouts/application
+  Rendered articles/_form.html.erb (0.8ms)
+  Rendered articles/new.html.erb within layouts/application (2.1ms)
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/home/ubuntu/environment/rails_project/alpha-blog/app/views/articles/_form.html.erb:22: syntax error, unexpected end, expecting ')'
+'.freeze;     end 
+              ^~~
+/home/ubuntu/environment/rails_project/alpha-blog/app/views/articles/_form.html.erb:63: syntax error, unexpected ensure, expecting ')'
+          ensure
+          ^~~~~~
+/home/ubuntu/environment/rails_project/alpha-blog/app/views/articles/_form.html.erb:65: syntax error, unexpected end, expecting ')'
+          end
+          ^~~):
+  
+app/views/articles/_form.html.erb:22: syntax error, unexpected end, expecting ')'
+app/views/articles/_form.html.erb:63: syntax error, unexpected ensure, expecting ')'
+app/views/articles/_form.html.erb:65: syntax error, unexpected end, expecting ')'
+app/views/articles/new.html.erb:2:in `_app_views_articles_new_html_erb__3561729875720697165_69878347568980'
+  Rendering /home/ubuntu/.rvm/gems/ruby-2.6.3/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /home/ubuntu/.rvm/gems/ruby-2.6.3/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /home/ubuntu/.rvm/gems/ruby-2.6.3/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (3.8ms)
+  Rendering /home/ubuntu/.rvm/gems/ruby-2.6.3/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/ubuntu/.rvm/gems/ruby-2.6.3/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.7ms)
+  Rendering /home/ubuntu/.rvm/gems/ruby-2.6.3/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/ubuntu/.rvm/gems/ruby-2.6.3/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.6ms)
+  Rendered /home/ubuntu/.rvm/gems/ruby-2.6.3/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (17.7ms)
+Started GET "/articles/new" for 98.201.234.41 at 2020-01-03 17:44:02 +0000
+Cannot render console from 98.201.234.41! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#new as HTML
+  Rendering articles/new.html.erb within layouts/application
+  Rendered articles/_form.html.erb (0.8ms)
+  Rendered articles/new.html.erb within layouts/application (2.0ms)
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/home/ubuntu/environment/rails_project/alpha-blog/app/views/articles/_form.html.erb:22: syntax error, unexpected end, expecting ')'
+'.freeze;     end 
+              ^~~
+/home/ubuntu/environment/rails_project/alpha-blog/app/views/articles/_form.html.erb:63: syntax error, unexpected ensure, expecting ')'
+          ensure
+          ^~~~~~
+/home/ubuntu/environment/rails_project/alpha-blog/app/views/articles/_form.html.erb:65: syntax error, unexpected end, expecting ')'
+          end
+          ^~~):
+  
+app/views/articles/_form.html.erb:22: syntax error, unexpected end, expecting ')'
+app/views/articles/_form.html.erb:63: syntax error, unexpected ensure, expecting ')'
+app/views/articles/_form.html.erb:65: syntax error, unexpected end, expecting ')'
+app/views/articles/new.html.erb:2:in `_app_views_articles_new_html_erb__3561729875720697165_69878347647720'
+  Rendering /home/ubuntu/.rvm/gems/ruby-2.6.3/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /home/ubuntu/.rvm/gems/ruby-2.6.3/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /home/ubuntu/.rvm/gems/ruby-2.6.3/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (3.9ms)
+  Rendering /home/ubuntu/.rvm/gems/ruby-2.6.3/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/ubuntu/.rvm/gems/ruby-2.6.3/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.2ms)
+  Rendering /home/ubuntu/.rvm/gems/ruby-2.6.3/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/ubuntu/.rvm/gems/ruby-2.6.3/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /home/ubuntu/.rvm/gems/ruby-2.6.3/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (19.5ms)
+Started GET "/articles/new" for 98.201.234.41 at 2020-01-03 17:44:35 +0000
+Cannot render console from 98.201.234.41! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#new as HTML
+  Rendering articles/new.html.erb within layouts/application
+  Rendered articles/_form.html.erb (0.8ms)
+  Rendered articles/new.html.erb within layouts/application (2.2ms)
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/home/ubuntu/environment/rails_project/alpha-blog/app/views/articles/_form.html.erb:63: syntax error, unexpected ensure, expecting ')'
+          ensure
+          ^~~~~~
+/home/ubuntu/environment/rails_project/alpha-blog/app/views/articles/_form.html.erb:65: syntax error, unexpected end, expecting ')'
+          end
+          ^~~):
+  
+app/views/articles/_form.html.erb:63: syntax error, unexpected ensure, expecting ')'
+app/views/articles/_form.html.erb:65: syntax error, unexpected end, expecting ')'
+app/views/articles/new.html.erb:2:in `_app_views_articles_new_html_erb__3561729875720697165_69878347719400'
+  Rendering /home/ubuntu/.rvm/gems/ruby-2.6.3/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /home/ubuntu/.rvm/gems/ruby-2.6.3/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /home/ubuntu/.rvm/gems/ruby-2.6.3/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (3.8ms)
+  Rendering /home/ubuntu/.rvm/gems/ruby-2.6.3/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/ubuntu/.rvm/gems/ruby-2.6.3/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.7ms)
+  Rendering /home/ubuntu/.rvm/gems/ruby-2.6.3/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/ubuntu/.rvm/gems/ruby-2.6.3/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /home/ubuntu/.rvm/gems/ruby-2.6.3/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (18.0ms)
+Started GET "/articles/new" for 98.201.234.41 at 2020-01-03 17:44:56 +0000
+Cannot render console from 98.201.234.41! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#new as HTML
+  Rendering articles/new.html.erb within layouts/application
+  Rendered articles/_form.html.erb (0.8ms)
+  Rendered articles/new.html.erb within layouts/application (2.2ms)
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/home/ubuntu/environment/rails_project/alpha-blog/app/views/articles/_form.html.erb:63: syntax error, unexpected ensure, expecting ')'
+          ensure
+          ^~~~~~
+/home/ubuntu/environment/rails_project/alpha-blog/app/views/articles/_form.html.erb:65: syntax error, unexpected end, expecting ')'
+          end
+          ^~~):
+  
+app/views/articles/_form.html.erb:63: syntax error, unexpected ensure, expecting ')'
+app/views/articles/_form.html.erb:65: syntax error, unexpected end, expecting ')'
+app/views/articles/new.html.erb:2:in `_app_views_articles_new_html_erb__3561729875720697165_69878347633160'
+  Rendering /home/ubuntu/.rvm/gems/ruby-2.6.3/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /home/ubuntu/.rvm/gems/ruby-2.6.3/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /home/ubuntu/.rvm/gems/ruby-2.6.3/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (3.8ms)
+  Rendering /home/ubuntu/.rvm/gems/ruby-2.6.3/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/ubuntu/.rvm/gems/ruby-2.6.3/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.6ms)
+  Rendering /home/ubuntu/.rvm/gems/ruby-2.6.3/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/ubuntu/.rvm/gems/ruby-2.6.3/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.6ms)
+  Rendered /home/ubuntu/.rvm/gems/ruby-2.6.3/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (17.6ms)
+Started GET "/articles/new" for 98.201.234.41 at 2020-01-03 17:45:45 +0000
+Cannot render console from 98.201.234.41! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#new as HTML
+  Rendering articles/new.html.erb within layouts/application
+  Rendered articles/_form.html.erb (0.8ms)
+  Rendered articles/new.html.erb within layouts/application (2.1ms)
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/home/ubuntu/environment/rails_project/alpha-blog/app/views/articles/_form.html.erb:22: syntax error, unexpected end, expecting ')'
+'.freeze;     end 
+              ^~~
+/home/ubuntu/environment/rails_project/alpha-blog/app/views/articles/_form.html.erb:63: syntax error, unexpected ensure, expecting ')'
+          ensure
+          ^~~~~~
+/home/ubuntu/environment/rails_project/alpha-blog/app/views/articles/_form.html.erb:65: syntax error, unexpected end, expecting ')'
+          end
+          ^~~):
+  
+app/views/articles/_form.html.erb:22: syntax error, unexpected end, expecting ')'
+app/views/articles/_form.html.erb:63: syntax error, unexpected ensure, expecting ')'
+app/views/articles/_form.html.erb:65: syntax error, unexpected end, expecting ')'
+app/views/articles/new.html.erb:2:in `_app_views_articles_new_html_erb__3561729875720697165_69878347554320'
+  Rendering /home/ubuntu/.rvm/gems/ruby-2.6.3/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /home/ubuntu/.rvm/gems/ruby-2.6.3/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /home/ubuntu/.rvm/gems/ruby-2.6.3/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (3.9ms)
+  Rendering /home/ubuntu/.rvm/gems/ruby-2.6.3/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/ubuntu/.rvm/gems/ruby-2.6.3/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.8ms)
+  Rendering /home/ubuntu/.rvm/gems/ruby-2.6.3/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/ubuntu/.rvm/gems/ruby-2.6.3/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.6ms)
+  Rendered /home/ubuntu/.rvm/gems/ruby-2.6.3/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (22.9ms)
+Started GET "/articles/new" for 98.201.234.41 at 2020-01-03 17:48:11 +0000
+Cannot render console from 98.201.234.41! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#new as HTML
+  Rendering articles/new.html.erb within layouts/application
+  Rendered layouts/_error.html.erb (175.8ms)
+  Rendered articles/_form.html.erb (177.6ms)
+  Rendered articles/new.html.erb within layouts/application (178.9ms)
+Completed 500 Internal Server Error in 182ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `obj' for #<#<Class:0x00007f1bb006c728>:0x00007f1ba42fdbd8>):
+    1: <% if obj.errors.any? %>
+    2: 
+    3: <div class="row">
+    4: 
+  
+app/views/layouts/_error.html.erb:1:in `_app_views_layouts__error_html_erb__2671836686635709540_69878347758380'
+app/views/articles/_form.html.erb:2:in `_app_views_articles__form_html_erb___3555546255818013007_69878347738640'
+app/views/articles/new.html.erb:2:in `_app_views_articles_new_html_erb__3561729875720697165_69878347723560'
+  Rendering /home/ubuntu/.rvm/gems/ruby-2.6.3/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /home/ubuntu/.rvm/gems/ruby-2.6.3/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /home/ubuntu/.rvm/gems/ruby-2.6.3/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (3.8ms)
+  Rendering /home/ubuntu/.rvm/gems/ruby-2.6.3/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/ubuntu/.rvm/gems/ruby-2.6.3/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.6ms)
+  Rendering /home/ubuntu/.rvm/gems/ruby-2.6.3/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/ubuntu/.rvm/gems/ruby-2.6.3/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.5ms)
+  Rendered /home/ubuntu/.rvm/gems/ruby-2.6.3/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (19.7ms)
+Started GET "/articles/new" for 98.201.234.41 at 2020-01-03 17:49:01 +0000
+Cannot render console from 98.201.234.41! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#new as HTML
+  Rendering articles/new.html.erb within layouts/application
+  Rendered articles/_form.html.erb (1.4ms)
+  Rendered articles/new.html.erb within layouts/application (2.7ms)
+Completed 500 Internal Server Error in 10ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (Missing partial shared/_errors with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :coffee, :jbuilder]}. Searched in:
+  * "/home/ubuntu/environment/rails_project/alpha-blog/app/views"
+):
+    1: <div class="container">
+    2:     <%= render 'shared/errors', obj: @article %>
+    3: </div>
+    4: 
+    5: <div class="container">
+  
+app/views/articles/_form.html.erb:2:in `_app_views_articles__form_html_erb___3555546255818013007_69878347305180'
+app/views/articles/new.html.erb:2:in `_app_views_articles_new_html_erb__3561729875720697165_69878347253360'
+  Rendering /home/ubuntu/.rvm/gems/ruby-2.6.3/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /home/ubuntu/.rvm/gems/ruby-2.6.3/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /home/ubuntu/.rvm/gems/ruby-2.6.3/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (3.7ms)
+  Rendering /home/ubuntu/.rvm/gems/ruby-2.6.3/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/ubuntu/.rvm/gems/ruby-2.6.3/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.6ms)
+  Rendering /home/ubuntu/.rvm/gems/ruby-2.6.3/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/ubuntu/.rvm/gems/ruby-2.6.3/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.6ms)
+  Rendered /home/ubuntu/.rvm/gems/ruby-2.6.3/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (18.2ms)
+Started GET "/articles/new" for 98.201.234.41 at 2020-01-03 17:49:06 +0000
+Cannot render console from 98.201.234.41! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#new as HTML
+  Rendering articles/new.html.erb within layouts/application
+  Rendered layouts/_error.html.erb (188.8ms)
+  Rendered articles/_form.html.erb (190.6ms)
+  Rendered articles/new.html.erb within layouts/application (191.8ms)
+Completed 500 Internal Server Error in 195ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `obj' for #<#<Class:0x00007f1bb006c728>:0x00007f1b9e0106d8>):
+    1: <% if obj.errors.any? %>
+    2: 
+    3: <div class="row">
+    4: 
+  
+app/views/layouts/_error.html.erb:1:in `_app_views_layouts__error_html_erb__2671836686635709540_69878295905580'
+app/views/articles/_form.html.erb:2:in `_app_views_articles__form_html_erb___3555546255818013007_69878295892660'
+app/views/articles/new.html.erb:2:in `_app_views_articles_new_html_erb__3561729875720697165_69878295857080'
+  Rendering /home/ubuntu/.rvm/gems/ruby-2.6.3/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /home/ubuntu/.rvm/gems/ruby-2.6.3/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /home/ubuntu/.rvm/gems/ruby-2.6.3/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (4.0ms)
+  Rendering /home/ubuntu/.rvm/gems/ruby-2.6.3/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/ubuntu/.rvm/gems/ruby-2.6.3/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.7ms)
+  Rendering /home/ubuntu/.rvm/gems/ruby-2.6.3/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/ubuntu/.rvm/gems/ruby-2.6.3/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.6ms)
+  Rendered /home/ubuntu/.rvm/gems/ruby-2.6.3/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (20.8ms)
+Started GET "/articles/new" for 98.201.234.41 at 2020-01-03 17:49:58 +0000
+Cannot render console from 98.201.234.41! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#new as HTML
+  Rendering articles/new.html.erb within layouts/application
+  Rendered layouts/_error.html.erb (0.4ms)
+  Rendered articles/_form.html.erb (3.4ms)
+  Rendered articles/new.html.erb within layouts/application (4.7ms)
+  Rendered layouts/_navigation.html.erb (0.6ms)
+  Rendered layouts/_message.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 37ms (Views: 36.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/articles" for 98.201.234.41 at 2020-01-03 17:50:00 +0000
+Cannot render console from 98.201.234.41! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"v9udaiuIKRIoAty+KhVs8vp38vtZjR0EHac8DWG+GQ48vcs/0Ww5mV02zeiHEhB6Fm5mGwABuyhftPt4w/2D7g==", "article"=>{"title"=>"", "description"=>""}, "commit"=>"Create Article"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  Rendering articles/new.html.erb within layouts/application
+  Rendered layouts/_error.html.erb (174.7ms)
+  Rendered articles/_form.html.erb (176.5ms)
+  Rendered articles/new.html.erb within layouts/application (177.7ms)
+Completed 500 Internal Server Error in 186ms (ActiveRecord: 0.1ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `obj' for #<#<Class:0x00007f1bb006c728>:0x00007f1b9df41b80>):
+    10: 
+    11: <h2 class="panel-title">
+    12: 
+    13: <%= pluralize(obj.errors.count, "error") %>
+    14: 
+    15: prohibited this article from being saved:
+    16: 
+  
+app/views/layouts/_error.html.erb:13:in `_app_views_layouts__error_html_erb__2671836686635709540_69878295610920'
+app/views/articles/_form.html.erb:2:in `_app_views_articles__form_html_erb___3555546255818013007_69878295582100'
+app/views/articles/new.html.erb:2:in `_app_views_articles_new_html_erb__3561729875720697165_69878295430340'
+app/controllers/articles_controller.rb:24:in `create'
+  Rendering /home/ubuntu/.rvm/gems/ruby-2.6.3/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /home/ubuntu/.rvm/gems/ruby-2.6.3/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /home/ubuntu/.rvm/gems/ruby-2.6.3/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (5.5ms)
+  Rendering /home/ubuntu/.rvm/gems/ruby-2.6.3/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/ubuntu/.rvm/gems/ruby-2.6.3/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.8ms)
+  Rendering /home/ubuntu/.rvm/gems/ruby-2.6.3/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/ubuntu/.rvm/gems/ruby-2.6.3/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /home/ubuntu/.rvm/gems/ruby-2.6.3/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (33.0ms)
+Started POST "/articles" for 98.201.234.41 at 2020-01-03 17:50:14 +0000
+Cannot render console from 98.201.234.41! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"v9udaiuIKRIoAty+KhVs8vp38vtZjR0EHac8DWG+GQ48vcs/0Ww5mV02zeiHEhB6Fm5mGwABuyhftPt4w/2D7g==", "article"=>{"title"=>"", "description"=>""}, "commit"=>"Create Article"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  Rendering articles/new.html.erb within layouts/application
+  Rendered layouts/_error.html.erb (165.4ms)
+  Rendered articles/_form.html.erb (167.3ms)
+  Rendered articles/new.html.erb within layouts/application (168.5ms)
+Completed 500 Internal Server Error in 175ms (ActiveRecord: 0.1ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `obj' for #<#<Class:0x00007f1bb006c728>:0x00007f1b9dccd700>):
+    20: 
+    21: <ul>
+    22: 
+    23: <% obj.errors.full_messages.each do |msg| %>
+    24: 
+    25: <li><%= msg %></li>
+    26: 
+  
+app/views/layouts/_error.html.erb:23:in `_app_views_layouts__error_html_erb__2671836686635709540_69878295131520'
+app/views/articles/_form.html.erb:2:in `_app_views_articles__form_html_erb___3555546255818013007_69878294745620'
+app/views/articles/new.html.erb:2:in `_app_views_articles_new_html_erb__3561729875720697165_69878294143600'
+app/controllers/articles_controller.rb:24:in `create'
+  Rendering /home/ubuntu/.rvm/gems/ruby-2.6.3/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /home/ubuntu/.rvm/gems/ruby-2.6.3/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /home/ubuntu/.rvm/gems/ruby-2.6.3/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (4.9ms)
+  Rendering /home/ubuntu/.rvm/gems/ruby-2.6.3/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/ubuntu/.rvm/gems/ruby-2.6.3/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.5ms)
+  Rendering /home/ubuntu/.rvm/gems/ruby-2.6.3/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/ubuntu/.rvm/gems/ruby-2.6.3/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /home/ubuntu/.rvm/gems/ruby-2.6.3/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (17.4ms)
+Started POST "/articles" for 98.201.234.41 at 2020-01-03 17:50:26 +0000
+Cannot render console from 98.201.234.41! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"v9udaiuIKRIoAty+KhVs8vp38vtZjR0EHac8DWG+GQ48vcs/0Ww5mV02zeiHEhB6Fm5mGwABuyhftPt4w/2D7g==", "article"=>{"title"=>"", "description"=>""}, "commit"=>"Create Article"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  Rendering articles/new.html.erb within layouts/application
+  Rendered layouts/_error.html.erb (1.1ms)
+  Rendered articles/_form.html.erb (4.1ms)
+  Rendered articles/new.html.erb within layouts/application (5.3ms)
+  Rendered layouts/_navigation.html.erb (0.5ms)
+  Rendered layouts/_message.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 39ms (Views: 34.3ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/articles" for 98.201.234.41 at 2020-01-03 17:50:36 +0000
+Cannot render console from 98.201.234.41! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.2ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  Rendered articles/index.html.erb within layouts/application (2.5ms)
+  Rendered layouts/_navigation.html.erb (0.5ms)
+  Rendered layouts/_message.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 33ms (Views: 31.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/articles" for 98.201.234.41 at 2020-01-03 17:50:36 +0000
+Cannot render console from 98.201.234.41! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.2ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  Rendered articles/index.html.erb within layouts/application (2.5ms)
+  Rendered layouts/_navigation.html.erb (12.5ms)
+  Rendered layouts/_message.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 45ms (Views: 44.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/articles/new" for 98.201.234.41 at 2020-01-03 17:50:38 +0000
+Cannot render console from 98.201.234.41! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#new as HTML
+  Rendering articles/new.html.erb within layouts/application
+  Rendered layouts/_error.html.erb (0.4ms)
+  Rendered articles/_form.html.erb (3.4ms)
+  Rendered articles/new.html.erb within layouts/application (4.6ms)
+  Rendered layouts/_navigation.html.erb (0.5ms)
+  Rendered layouts/_message.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 36ms (Views: 34.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/articles" for 98.201.234.41 at 2020-01-03 17:50:39 +0000
+Cannot render console from 98.201.234.41! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"eHe4K/vF2FzyUhEkR9rBauMb7jg4mobfNqW9A8SdSnZEBtOsNOEVCshCwFKC56tUCFU0g2qy0LUJi3WTP/5orA==", "article"=>{"title"=>"", "description"=>""}, "commit"=>"Create Article"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  Rendering articles/new.html.erb within layouts/application
+  Rendered layouts/_error.html.erb (1.1ms)
+  Rendered articles/_form.html.erb (3.9ms)
+  Rendered articles/new.html.erb within layouts/application (5.1ms)
+  Rendered layouts/_navigation.html.erb (0.5ms)
+  Rendered layouts/_message.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 39ms (Views: 34.2ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/articles" for 98.201.234.41 at 2020-01-03 17:51:10 +0000
+Cannot render console from 98.201.234.41! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.2ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  Rendered articles/index.html.erb within layouts/application (2.5ms)
+  Rendered layouts/_navigation.html.erb (0.5ms)
+  Rendered layouts/_message.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 32ms (Views: 30.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/articles/new" for 98.201.234.41 at 2020-01-03 17:51:13 +0000
+Cannot render console from 98.201.234.41! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#new as HTML
+  Rendering articles/new.html.erb within layouts/application
+  Rendered layouts/_error.html.erb (0.3ms)
+  Rendered articles/_form.html.erb (3.4ms)
+  Rendered articles/new.html.erb within layouts/application (4.6ms)
+  Rendered layouts/_navigation.html.erb (0.6ms)
+  Rendered layouts/_message.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 48ms (Views: 47.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/articles" for 98.201.234.41 at 2020-01-03 17:51:14 +0000
+Cannot render console from 98.201.234.41! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"N67KIRQf1Til3uNLt1dVBbxbC1uxiMkdjvcogFd9I6sL36Gm2zsYbp/OMj1yaj87VxXR4OOgn3ex2eAQrB4BcQ==", "article"=>{"title"=>"", "description"=>""}, "commit"=>"Create Article"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  Rendering articles/new.html.erb within layouts/application
+  Rendered layouts/_error.html.erb (1.1ms)
+  Rendered articles/_form.html.erb (3.9ms)
+  Rendered articles/new.html.erb within layouts/application (5.2ms)
+  Rendered layouts/_navigation.html.erb (0.5ms)
+  Rendered layouts/_message.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 38ms (Views: 34.0ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/articles" for 98.201.234.41 at 2020-01-03 17:51:41 +0000
+Cannot render console from 98.201.234.41! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.2ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  Rendered articles/index.html.erb within layouts/application (2.5ms)
+  Rendered layouts/_navigation.html.erb (0.5ms)
+  Rendered layouts/_message.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 32ms (Views: 31.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/articles/new" for 98.201.234.41 at 2020-01-03 17:51:44 +0000
+Cannot render console from 98.201.234.41! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#new as HTML
+  Rendering articles/new.html.erb within layouts/application
+  Rendered layouts/_error.html.erb (0.3ms)
+  Rendered articles/_form.html.erb (3.3ms)
+  Rendered articles/new.html.erb within layouts/application (4.6ms)
+  Rendered layouts/_navigation.html.erb (0.5ms)
+  Rendered layouts/_message.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 35ms (Views: 34.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/articles" for 98.201.234.41 at 2020-01-03 17:51:45 +0000
+Cannot render console from 98.201.234.41! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"tdfTPlOC1IlZ3HF2bfUryU3u64Hq2QK5xLEPL/jpm+WJpri5nKYZ32PMoACoyEH3pqAxOrjxVNP7n8e/A4q5Pw==", "article"=>{"title"=>"", "description"=>""}, "commit"=>"Create Article"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  Rendering articles/new.html.erb within layouts/application
+  Rendered layouts/_error.html.erb (1.0ms)
+  Rendered articles/_form.html.erb (3.9ms)
+  Rendered articles/new.html.erb within layouts/application (5.2ms)
+  Rendered layouts/_navigation.html.erb (0.6ms)
+  Rendered layouts/_message.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 52ms (Views: 47.4ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/articles" for 98.201.234.41 at 2020-01-03 17:52:22 +0000
+Cannot render console from 98.201.234.41! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.2ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  Rendered articles/index.html.erb within layouts/application (2.5ms)
+  Rendered layouts/_navigation.html.erb (0.5ms)
+  Rendered layouts/_message.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 32ms (Views: 31.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/articles/new" for 98.201.234.41 at 2020-01-03 17:52:25 +0000
+Cannot render console from 98.201.234.41! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#new as HTML
+  Rendering articles/new.html.erb within layouts/application
+  Rendered layouts/_error.html.erb (0.4ms)
+  Rendered articles/_form.html.erb (3.3ms)
+  Rendered articles/new.html.erb within layouts/application (4.5ms)
+  Rendered layouts/_navigation.html.erb (0.5ms)
+  Rendered layouts/_message.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 34ms (Views: 33.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/articles" for 98.201.234.41 at 2020-01-03 17:52:26 +0000
+Cannot render console from 98.201.234.41! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"IMxiH7A7LIcm2Gl8iz5C2ZdWOYugZSCIQVOfnpNEwCEcvQmYfx/h0RzIuApOAyjnfBjjMPJNduJ+fVcOaCfi+w==", "article"=>{"title"=>"", "description"=>""}, "commit"=>"Create Article"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  Rendering articles/new.html.erb within layouts/application
+  Rendered layouts/_error.html.erb (1.1ms)
+  Rendered articles/_form.html.erb (3.8ms)
+  Rendered articles/new.html.erb within layouts/application (5.0ms)
+  Rendered layouts/_navigation.html.erb (0.6ms)
+  Rendered layouts/_message.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 38ms (Views: 33.6ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/articles" for 98.201.234.41 at 2020-01-03 17:52:37 +0000
+Cannot render console from 98.201.234.41! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.2ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  Rendered articles/index.html.erb within layouts/application (2.5ms)
+  Rendered layouts/_navigation.html.erb (0.5ms)
+  Rendered layouts/_message.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 46ms (Views: 44.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/articles/new" for 98.201.234.41 at 2020-01-03 17:52:39 +0000
+Cannot render console from 98.201.234.41! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#new as HTML
+  Rendering articles/new.html.erb within layouts/application
+  Rendered layouts/_error.html.erb (0.3ms)
+  Rendered articles/_form.html.erb (3.3ms)
+  Rendered articles/new.html.erb within layouts/application (4.6ms)
+  Rendered layouts/_navigation.html.erb (0.6ms)
+  Rendered layouts/_message.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 35ms (Views: 33.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/articles" for 98.201.234.41 at 2020-01-03 17:52:41 +0000
+Cannot render console from 98.201.234.41! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"oO2tR/J4rFByq+x5cZYxduVaBL5MVJkISXM9mh2+BsicnMbAPVxhBki7PQ+0q1tIDhTeBR58z2J2XfUK5t0kEg==", "article"=>{"title"=>"", "description"=>""}, "commit"=>"Create Article"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  Rendering articles/new.html.erb within layouts/application
+  Rendered layouts/_error.html.erb (1.1ms)
+  Rendered articles/_form.html.erb (3.9ms)
+  Rendered articles/new.html.erb within layouts/application (5.1ms)
+  Rendered layouts/_navigation.html.erb (0.5ms)
+  Rendered layouts/_message.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 46ms (Views: 41.3ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/articles" for 98.201.234.41 at 2020-01-03 17:52:47 +0000
+Cannot render console from 98.201.234.41! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.2ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  Rendered articles/index.html.erb within layouts/application (2.5ms)
+  Rendered layouts/_navigation.html.erb (0.6ms)
+  Rendered layouts/_message.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 44ms (Views: 43.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/articles/new" for 98.201.234.41 at 2020-01-03 17:52:49 +0000
+Cannot render console from 98.201.234.41! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#new as HTML
+  Rendering articles/new.html.erb within layouts/application
+  Rendered layouts/_error.html.erb (0.3ms)
+  Rendered articles/_form.html.erb (3.3ms)
+  Rendered articles/new.html.erb within layouts/application (4.5ms)
+  Rendered layouts/_navigation.html.erb (0.7ms)
+  Rendered layouts/_message.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 35ms (Views: 34.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/articles" for 98.201.234.41 at 2020-01-03 17:52:50 +0000
+Cannot render console from 98.201.234.41! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"dzl8EcIjwgCxnuVJ2khq3EfZYE0Dqt0k7OtwlwtTxi5LSBeWDQcPVouOND8fdQDirJe69lGCi07TxbgH8DDk9A==", "article"=>{"title"=>"", "description"=>""}, "commit"=>"Create Article"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  Rendering articles/new.html.erb within layouts/application
+  Rendered layouts/_error.html.erb (1.1ms)
+  Rendered articles/_form.html.erb (3.9ms)
+  Rendered articles/new.html.erb within layouts/application (5.1ms)
+  Rendered layouts/_navigation.html.erb (0.5ms)
+  Rendered layouts/_message.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 38ms (Views: 33.8ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/articles" for 98.201.234.41 at 2020-01-03 17:54:03 +0000
+Cannot render console from 98.201.234.41! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.2ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  Rendered articles/index.html.erb within layouts/application (2.5ms)
+  Rendered layouts/_navigation.html.erb (0.6ms)
+  Rendered layouts/_message.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 33ms (Views: 31.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/articles/new" for 98.201.234.41 at 2020-01-03 17:54:05 +0000
+Cannot render console from 98.201.234.41! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#new as HTML
+  Rendering articles/new.html.erb within layouts/application
+  Rendered layouts/_error.html.erb (0.3ms)
+  Rendered articles/_form.html.erb (3.3ms)
+  Rendered articles/new.html.erb within layouts/application (4.5ms)
+  Rendered layouts/_navigation.html.erb (0.6ms)
+  Rendered layouts/_message.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 45ms (Views: 44.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/articles" for 98.201.234.41 at 2020-01-03 17:54:06 +0000
+Cannot render console from 98.201.234.41! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"PZTxfF2WuprYAXliqkeF1b1nilg3pioP2C3+blieCtQB5Zr7krJ3zOIRqBRveu/rVilQ42WOfGXnAzb+o/0oDg==", "article"=>{"title"=>"", "description"=>""}, "commit"=>"Create Article"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  Rendering articles/new.html.erb within layouts/application
+  Rendered layouts/_error.html.erb (1.1ms)
+  Rendered articles/_form.html.erb (3.8ms)
+  Rendered articles/new.html.erb within layouts/application (5.0ms)
+  Rendered layouts/_navigation.html.erb (0.5ms)
+  Rendered layouts/_message.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 37ms (Views: 33.0ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/articles" for 98.201.234.41 at 2020-01-03 17:55:47 +0000
+Cannot render console from 98.201.234.41! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.2ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  Rendered articles/index.html.erb within layouts/application (2.4ms)
+  Rendered layouts/_navigation.html.erb (0.5ms)
+  Rendered layouts/_message.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 31ms (Views: 30.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/articles/new" for 98.201.234.41 at 2020-01-03 17:55:49 +0000
+Cannot render console from 98.201.234.41! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#new as HTML
+  Rendering articles/new.html.erb within layouts/application
+  Rendered layouts/_error.html.erb (0.3ms)
+  Rendered articles/_form.html.erb (3.2ms)
+  Rendered articles/new.html.erb within layouts/application (4.5ms)
+  Rendered layouts/_navigation.html.erb (0.5ms)
+  Rendered layouts/_message.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 34ms (Views: 32.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/articles" for 98.201.234.41 at 2020-01-03 17:55:50 +0000
+Cannot render console from 98.201.234.41! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"DCcv5zFz++vSyjRxEwJUFfP1T5IAkxckcjQPJcXvpUgwVkRg/lc2veja5QfWPz4rGLuVKVK7QU5NGse1PoyHkg==", "article"=>{"title"=>"", "description"=>""}, "commit"=>"Create Article"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  Rendering articles/new.html.erb within layouts/application
+  Rendered layouts/_error.html.erb (1.0ms)
+  Rendered articles/_form.html.erb (3.9ms)
+  Rendered articles/new.html.erb within layouts/application (5.1ms)
+  Rendered layouts/_navigation.html.erb (0.5ms)
+  Rendered layouts/_message.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 51ms (Views: 35.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/articles" for 98.201.234.41 at 2020-01-03 17:56:15 +0000
+Cannot render console from 98.201.234.41! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.2ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  Rendered articles/index.html.erb within layouts/application (2.7ms)
+  Rendered layouts/_navigation.html.erb (0.5ms)
+  Rendered layouts/_message.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 32ms (Views: 31.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/articles/new" for 98.201.234.41 at 2020-01-03 17:56:17 +0000
+Cannot render console from 98.201.234.41! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#new as HTML
+  Rendering articles/new.html.erb within layouts/application
+  Rendered layouts/_error.html.erb (0.3ms)
+  Rendered articles/_form.html.erb (3.3ms)
+  Rendered articles/new.html.erb within layouts/application (4.5ms)
+  Rendered layouts/_navigation.html.erb (0.5ms)
+  Rendered layouts/_message.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 34ms (Views: 32.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/articles" for 98.201.234.41 at 2020-01-03 17:56:18 +0000
+Cannot render console from 98.201.234.41! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"IppbyMcnd01MwSQpd12Il81wY+xyfT3z0Bh6h452RF8e6zBPCAO6G3bR9V+yYOKpJj65VyBVa5nvNrIXdRVmhQ==", "article"=>{"title"=>"", "description"=>""}, "commit"=>"Create Article"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  Rendering articles/new.html.erb within layouts/application
+  Rendered layouts/_error.html.erb (1.1ms)
+  Rendered articles/_form.html.erb (4.0ms)
+  Rendered articles/new.html.erb within layouts/application (5.3ms)
+  Rendered layouts/_navigation.html.erb (0.6ms)
+  Rendered layouts/_message.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 52ms (Views: 47.9ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/articles" for 98.201.234.41 at 2020-01-03 17:56:52 +0000
+Cannot render console from 98.201.234.41! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.2ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  Rendered articles/index.html.erb within layouts/application (2.5ms)
+  Rendered layouts/_navigation.html.erb (0.6ms)
+  Rendered layouts/_message.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 33ms (Views: 32.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/articles/new" for 98.201.234.41 at 2020-01-03 17:56:53 +0000
+Cannot render console from 98.201.234.41! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#new as HTML
+  Rendering articles/new.html.erb within layouts/application
+  Rendered layouts/_error.html.erb (0.3ms)
+  Rendered articles/_form.html.erb (3.3ms)
+  Rendered articles/new.html.erb within layouts/application (4.6ms)
+  Rendered layouts/_navigation.html.erb (0.6ms)
+  Rendered layouts/_message.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 35ms (Views: 34.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/articles" for 98.201.234.41 at 2020-01-03 17:56:56 +0000
+Cannot render console from 98.201.234.41! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"ImN5cCslVyd+jEMBm/YPtXp6sm81YOPV567pp/rtUqQeEhL35AGacUSckndey2WLkTRo1GdItb/YgCE3AY5wfg==", "article"=>{"title"=>"", "description"=>""}, "commit"=>"Create Article"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  Rendering articles/new.html.erb within layouts/application
+  Rendered layouts/_error.html.erb (1.0ms)
+  Rendered articles/_form.html.erb (3.9ms)
+  Rendered articles/new.html.erb within layouts/application (5.1ms)
+  Rendered layouts/_navigation.html.erb (0.5ms)
+  Rendered layouts/_message.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 39ms (Views: 34.6ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/articles" for 98.201.234.41 at 2020-01-03 17:57:29 +0000
+Cannot render console from 98.201.234.41! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.2ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  Rendered articles/index.html.erb within layouts/application (2.4ms)
+  Rendered layouts/_navigation.html.erb (0.5ms)
+  Rendered layouts/_message.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 32ms (Views: 30.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/articles/new" for 98.201.234.41 at 2020-01-03 17:57:31 +0000
+Cannot render console from 98.201.234.41! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#new as HTML
+  Rendering articles/new.html.erb within layouts/application
+  Rendered layouts/_error.html.erb (0.3ms)
+  Rendered articles/_form.html.erb (3.3ms)
+  Rendered articles/new.html.erb within layouts/application (4.5ms)
+  Rendered layouts/_navigation.html.erb (0.5ms)
+  Rendered layouts/_message.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 34ms (Views: 33.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/articles" for 98.201.234.41 at 2020-01-03 17:57:32 +0000
+Cannot render console from 98.201.234.41! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"imsfrgjoVUlbcdm+b5X7lNS2SovmCjyPzB0sVw+Zm/G2GnQpx8yYH2FhCMiqqJGqP/iQMLQiauXzM+TH9Pq5Kw==", "article"=>{"title"=>"", "description"=>""}, "commit"=>"Create Article"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  Rendering articles/new.html.erb within layouts/application
+  Rendered layouts/_error.html.erb (1.1ms)
+  Rendered articles/_form.html.erb (3.8ms)
+  Rendered articles/new.html.erb within layouts/application (4.9ms)
+  Rendered layouts/_navigation.html.erb (0.5ms)
+  Rendered layouts/_message.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 37ms (Views: 33.2ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/articles" for 98.201.234.41 at 2020-01-03 17:58:03 +0000
+Cannot render console from 98.201.234.41! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.2ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  Rendered articles/index.html.erb within layouts/application (2.5ms)
+  Rendered layouts/_navigation.html.erb (0.6ms)
+  Rendered layouts/_message.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 45ms (Views: 44.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/articles/new" for 98.201.234.41 at 2020-01-03 17:58:06 +0000
+Cannot render console from 98.201.234.41! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#new as HTML
+  Rendering articles/new.html.erb within layouts/application
+  Rendered layouts/_error.html.erb (0.4ms)
+  Rendered articles/_form.html.erb (3.4ms)
+  Rendered articles/new.html.erb within layouts/application (4.6ms)
+  Rendered layouts/_navigation.html.erb (0.6ms)
+  Rendered layouts/_message.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 35ms (Views: 34.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/articles" for 98.201.234.41 at 2020-01-03 17:58:07 +0000
+Cannot render console from 98.201.234.41! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"zDU8CqpXNLLfwZeu1aENAgsmNLzp6beDrWV0OimEW1vwRFeNZXP55OXRRtgQnGc84GjuB7vB4emSS7yq0ud5gQ==", "article"=>{"title"=>"", "description"=>""}, "commit"=>"Create Article"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  Rendering articles/new.html.erb within layouts/application
+  Rendered layouts/_error.html.erb (1.1ms)
+  Rendered articles/_form.html.erb (3.9ms)
+  Rendered articles/new.html.erb within layouts/application (5.2ms)
+  Rendered layouts/_navigation.html.erb (0.6ms)
+  Rendered layouts/_message.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 39ms (Views: 34.5ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/articles" for 98.201.234.41 at 2020-01-03 17:58:28 +0000
+Cannot render console from 98.201.234.41! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.2ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  Rendered articles/index.html.erb within layouts/application (2.6ms)
+  Rendered layouts/_navigation.html.erb (0.6ms)
+  Rendered layouts/_message.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 46ms (Views: 44.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/articles/new" for 98.201.234.41 at 2020-01-03 17:58:30 +0000
+Cannot render console from 98.201.234.41! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#new as HTML
+  Rendering articles/new.html.erb within layouts/application
+  Rendered layouts/_error.html.erb (0.3ms)
+  Rendered articles/_form.html.erb (3.3ms)
+  Rendered articles/new.html.erb within layouts/application (4.6ms)
+  Rendered layouts/_navigation.html.erb (0.6ms)
+  Rendered layouts/_message.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 35ms (Views: 34.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/articles" for 98.201.234.41 at 2020-01-03 17:58:32 +0000
+Cannot render console from 98.201.234.41! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"LqLzb50sEyQDcQI3GtB3uojJ3F7H/BSGMl5Mra6v5sYS05joUgjecjlh00Hf7R2EY4cG5ZXUQuwNcIQ9VczEHA==", "article"=>{"title"=>"", "description"=>""}, "commit"=>"Create Article"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  Rendering articles/new.html.erb within layouts/application
+  Rendered layouts/_error.html.erb (1.1ms)
+  Rendered articles/_form.html.erb (3.9ms)
+  Rendered articles/new.html.erb within layouts/application (5.1ms)
+  Rendered layouts/_navigation.html.erb (0.5ms)
+  Rendered layouts/_message.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 39ms (Views: 34.4ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/articles" for 98.201.234.41 at 2020-01-03 18:07:26 +0000
+Cannot render console from 98.201.234.41! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.3ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  Rendered articles/index.html.erb within layouts/application (6.4ms)
+  Rendered layouts/_navigation.html.erb (0.6ms)
+  Rendered layouts/_message.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 63ms (Views: 59.9ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/articles/new" for 98.201.234.41 at 2020-01-03 18:07:28 +0000
+Cannot render console from 98.201.234.41! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#new as HTML
+  Rendering articles/new.html.erb within layouts/application
+  Rendered layouts/_error.html.erb (0.3ms)
+  Rendered articles/_form.html.erb (3.7ms)
+  Rendered articles/new.html.erb within layouts/application (5.0ms)
+  Rendered layouts/_navigation.html.erb (0.4ms)
+  Rendered layouts/_message.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 35ms (Views: 34.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/articles" for 98.201.234.41 at 2020-01-03 18:07:29 +0000
+Cannot render console from 98.201.234.41! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"euVpp8daMon1xgNkFaeeyP8O7xf0A/bICFYz2vj10jxGlAIgCH7/38/W0hLQmvT2FEA1rKYroKI3ePtKA5bw5g==", "article"=>{"title"=>"", "description"=>""}, "commit"=>"Create Article"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  Rendering articles/new.html.erb within layouts/application
+  Rendered layouts/_error.html.erb (1.0ms)
+  Rendered articles/_form.html.erb (3.9ms)
+  Rendered articles/new.html.erb within layouts/application (5.1ms)
+  Rendered layouts/_navigation.html.erb (0.5ms)
+  Rendered layouts/_message.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 39ms (Views: 34.8ms | ActiveRecord: 0.1ms)
+
+
+Started POST "/articles" for 98.201.234.41 at 2020-01-03 18:07:39 +0000
+Cannot render console from 98.201.234.41! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"q3Mt8NgrW7MJx1eFir5niKNP8u8vESkqa6ZOogVcqCsoFXulIs9LOHzzRtMnuRsAT1ZmD3adjwYptYnXpx8yyw==", "article"=>{"title"=>"new article", "description"=>"testing color changes flash\r\n"}, "commit"=>"Create Article"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.5ms)[0m  [1m[32mINSERT INTO "articles" ("title", "description", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["title", "new article"], ["description", "testing color changes flash\r\n"], ["created_at", "2020-01-03 18:07:39.300841"], ["updated_at", "2020-01-03 18:07:39.300841"]]
+  [1m[35m (12.2ms)[0m  [1m[36mcommit transaction[0m
+Redirected to https://c8f2d5cb7aa7415bac27d2414037e555.vfs.cloud9.us-east-2.amazonaws.com/articles/13
+Completed 302 Found in 19ms (ActiveRecord: 12.8ms)
+
+
+Started GET "/articles/13" for 98.201.234.41 at 2020-01-03 18:07:39 +0000
+Cannot render console from 98.201.234.41! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"13"}
+  [1m[36mArticle Load (0.2ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" WHERE "articles"."id" = ? LIMIT ?[0m  [["id", 13], ["LIMIT", 1]]
+  Rendering articles/show.html.erb within layouts/application
+  Rendered articles/show.html.erb within layouts/application (0.6ms)
+  Rendered layouts/_navigation.html.erb (0.6ms)
+  Rendered layouts/_message.html.erb (173.6ms)
+Completed 500 Internal Server Error in 217ms (ActiveRecord: 0.2ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `string' for #<#<Class:0x00007f1ba4138438>:0x00007f1ba4172ef8>
+Did you mean?  String):
+    3:     <% flash.each do |name, msg| %>
+    4:     <div class="alert alert-<%="#{name}"%>">
+    5:       <a href="#" class="close" data-dismiss="alert">&#215;</a>
+    6:         <% content_tag :div, msg, :id => "flash_#{name}" if msg.is_a?(string) %>
+    7:         
+    8:     </div>
+    9:     <%end%>
+  
+app/views/layouts/_message.html.erb:6:in `block in _app_views_layouts__message_html_erb__383657397780942173_69878286676660'
+app/views/layouts/_message.html.erb:3:in `_app_views_layouts__message_html_erb__383657397780942173_69878286676660'
+app/views/layouts/application.html.erb:23:in `_app_views_layouts_application_html_erb___235035945051808763_69878346930360'
+  Rendering /home/ubuntu/.rvm/gems/ruby-2.6.3/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /home/ubuntu/.rvm/gems/ruby-2.6.3/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /home/ubuntu/.rvm/gems/ruby-2.6.3/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (3.4ms)
+  Rendering /home/ubuntu/.rvm/gems/ruby-2.6.3/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/ubuntu/.rvm/gems/ruby-2.6.3/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.5ms)
+  Rendering /home/ubuntu/.rvm/gems/ruby-2.6.3/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/ubuntu/.rvm/gems/ruby-2.6.3/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.6ms)
+  Rendered /home/ubuntu/.rvm/gems/ruby-2.6.3/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (16.0ms)
+Started GET "/articles/13" for 98.201.234.41 at 2020-01-03 18:09:03 +0000
+Cannot render console from 98.201.234.41! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"13"}
+  [1m[36mArticle Load (0.1ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" WHERE "articles"."id" = ? LIMIT ?[0m  [["id", 13], ["LIMIT", 1]]
+  Rendering articles/show.html.erb within layouts/application
+  Rendered articles/show.html.erb within layouts/application (0.6ms)
+  Rendered layouts/_navigation.html.erb (0.8ms)
+  Rendered layouts/_message.html.erb (0.6ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 59ms (Views: 57.3ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/articles" for 98.201.234.41 at 2020-01-03 18:09:09 +0000
+Cannot render console from 98.201.234.41! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.2ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  Rendered articles/index.html.erb within layouts/application (3.4ms)
+  Rendered layouts/_navigation.html.erb (0.6ms)
+  Rendered layouts/_message.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (1.5ms)
+Completed 200 OK in 66ms (Views: 64.6ms | ActiveRecord: 0.2ms)
+
+
+Started DELETE "/articles/11" for 98.201.234.41 at 2020-01-03 18:09:19 +0000
+Cannot render console from 98.201.234.41! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#destroy as HTML
+  Parameters: {"authenticity_token"=>"iFpdqF4zmtm7+b14umt3e5hZpM8jm1HBg7YGSO675j8LPAv9pNeKUs7NrC4XbAvzdEAwL3oX9+3BpcE9TPh83w==", "id"=>"11"}
+  [1m[36mArticle Load (0.1ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" WHERE "articles"."id" = ? LIMIT ?[0m  [["id", 11], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[31mDELETE FROM "articles" WHERE "articles"."id" = ?[0m  [["id", 11]]
+  [1m[35m (12.2ms)[0m  [1m[36mcommit transaction[0m
+Redirected to https://c8f2d5cb7aa7415bac27d2414037e555.vfs.cloud9.us-east-2.amazonaws.com/articles
+Completed 302 Found in 19ms (ActiveRecord: 12.8ms)
+
+
+Started GET "/articles" for 98.201.234.41 at 2020-01-03 18:09:20 +0000
+Cannot render console from 98.201.234.41! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.2ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  Rendered articles/index.html.erb within layouts/application (2.6ms)
+  Rendered layouts/_navigation.html.erb (0.6ms)
+  Rendered layouts/_message.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 35ms (Views: 33.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/articles" for 98.201.234.41 at 2020-01-03 18:09:45 +0000
+Cannot render console from 98.201.234.41! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.2ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  Rendered articles/index.html.erb within layouts/application (2.5ms)
+  Rendered layouts/_navigation.html.erb (0.6ms)
+  Rendered layouts/_message.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 33ms (Views: 31.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/articles/new" for 98.201.234.41 at 2020-01-03 18:09:47 +0000
+Cannot render console from 98.201.234.41! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#new as HTML
+  Rendering articles/new.html.erb within layouts/application
+  Rendered layouts/_error.html.erb (0.3ms)
+  Rendered articles/_form.html.erb (3.3ms)
+  Rendered articles/new.html.erb within layouts/application (4.6ms)
+  Rendered layouts/_navigation.html.erb (0.5ms)
+  Rendered layouts/_message.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 35ms (Views: 33.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/articles" for 98.201.234.41 at 2020-01-03 18:09:59 +0000
+Cannot render console from 98.201.234.41! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"fQmpH3D8U0NVgQCTbeIm5+Zo9vRsF7Vwj/bbabI4DFRBeMKYv9ieFW+R0eWo30zZDSYsTz4/4xqw2BP5SVsujg==", "article"=>{"title"=>"this is a new article", "description"=>"i am testing to see if green banner on top shows up"}, "commit"=>"Create Article"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.5ms)[0m  [1m[32mINSERT INTO "articles" ("title", "description", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["title", "this is a new article"], ["description", "i am testing to see if green banner on top shows up"], ["created_at", "2020-01-03 18:09:59.982777"], ["updated_at", "2020-01-03 18:09:59.982777"]]
+  [1m[35m (11.6ms)[0m  [1m[36mcommit transaction[0m
+Redirected to https://c8f2d5cb7aa7415bac27d2414037e555.vfs.cloud9.us-east-2.amazonaws.com/articles/14
+Completed 302 Found in 18ms (ActiveRecord: 12.2ms)
+
+
+Started GET "/articles/14" for 98.201.234.41 at 2020-01-03 18:10:00 +0000
+Cannot render console from 98.201.234.41! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"14"}
+  [1m[36mArticle Load (0.1ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" WHERE "articles"."id" = ? LIMIT ?[0m  [["id", 14], ["LIMIT", 1]]
+  Rendering articles/show.html.erb within layouts/application
+  Rendered articles/show.html.erb within layouts/application (0.7ms)
+  Rendered layouts/_navigation.html.erb (0.8ms)
+  Rendered layouts/_message.html.erb (0.6ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 53ms (Views: 50.7ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/articles" for 98.201.234.41 at 2020-01-03 18:10:05 +0000
+Cannot render console from 98.201.234.41! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.2ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  Rendered articles/index.html.erb within layouts/application (2.8ms)
+  Rendered layouts/_navigation.html.erb (0.6ms)
+  Rendered layouts/_message.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 33ms (Views: 31.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/articles/new" for 98.201.234.41 at 2020-01-03 18:10:07 +0000
+Cannot render console from 98.201.234.41! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#new as HTML
+  Rendering articles/new.html.erb within layouts/application
+  Rendered layouts/_error.html.erb (0.3ms)
+  Rendered articles/_form.html.erb (3.2ms)
+  Rendered articles/new.html.erb within layouts/application (4.4ms)
+  Rendered layouts/_navigation.html.erb (0.6ms)
+  Rendered layouts/_message.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 34ms (Views: 32.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/articles/new" for 98.201.234.41 at 2020-01-03 18:10:23 +0000
+Cannot render console from 98.201.234.41! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#new as HTML
+  Rendering articles/new.html.erb within layouts/application
+  Rendered layouts/_error.html.erb (0.4ms)
+  Rendered articles/_form.html.erb (3.3ms)
+  Rendered articles/new.html.erb within layouts/application (4.6ms)
+  Rendered layouts/_navigation.html.erb (0.5ms)
+  Rendered layouts/_message.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 35ms (Views: 34.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/articles" for 98.201.234.41 at 2020-01-03 18:10:29 +0000
+Cannot render console from 98.201.234.41! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.2ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  Rendered articles/index.html.erb within layouts/application (4.0ms)
+  Rendered layouts/_navigation.html.erb (0.6ms)
+  Rendered layouts/_message.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 48ms (Views: 46.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/articles" for 98.201.234.41 at 2020-01-03 18:11:29 +0000
+Cannot render console from 98.201.234.41! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.2ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  Rendered articles/index.html.erb within layouts/application (3.0ms)
+  Rendered layouts/_navigation.html.erb (0.6ms)
+  Rendered layouts/_message.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 34ms (Views: 32.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/articles/new" for 98.201.234.41 at 2020-01-03 18:12:03 +0000
+Cannot render console from 98.201.234.41! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#new as HTML
+  Rendering articles/new.html.erb within layouts/application
+  Rendered layouts/_error.html.erb (0.3ms)
+  Rendered articles/_form.html.erb (3.3ms)
+  Rendered articles/new.html.erb within layouts/application (4.9ms)
+  Rendered layouts/_navigation.html.erb (0.5ms)
+  Rendered layouts/_message.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 35ms (Views: 34.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/articles" for 98.201.234.41 at 2020-01-03 18:12:08 +0000
+Cannot render console from 98.201.234.41! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"PMXF4q7j1iBzrukXL4mNbv6BI/LPWK9HJ/fR2Sh9TtwAtK5lYccbdkm+OGHqtOdQFc/5SZ1w+S0Y2RlJ0x5sBg==", "article"=>{"title"=>"dasd", "description"=>"asd"}, "commit"=>"Create Article"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.6ms)[0m  [1m[32mINSERT INTO "articles" ("title", "description", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["title", "dasd"], ["description", "asd"], ["created_at", "2020-01-03 18:12:08.178103"], ["updated_at", "2020-01-03 18:12:08.178103"]]
+  [1m[35m (11.9ms)[0m  [1m[36mcommit transaction[0m
+Redirected to https://c8f2d5cb7aa7415bac27d2414037e555.vfs.cloud9.us-east-2.amazonaws.com/articles/15
+Completed 302 Found in 19ms (ActiveRecord: 12.6ms)
+
+
+Started GET "/articles/15" for 98.201.234.41 at 2020-01-03 18:12:08 +0000
+Cannot render console from 98.201.234.41! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"15"}
+  [1m[36mArticle Load (0.1ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" WHERE "articles"."id" = ? LIMIT ?[0m  [["id", 15], ["LIMIT", 1]]
+  Rendering articles/show.html.erb within layouts/application
+  Rendered articles/show.html.erb within layouts/application (0.6ms)
+  Rendered layouts/_navigation.html.erb (0.6ms)
+  Rendered layouts/_message.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 45ms (Views: 43.0ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/articles/15" for 98.201.234.41 at 2020-01-03 18:12:28 +0000
+Cannot render console from 98.201.234.41! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"15"}
+  [1m[36mArticle Load (0.1ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" WHERE "articles"."id" = ? LIMIT ?[0m  [["id", 15], ["LIMIT", 1]]
+  Rendering articles/show.html.erb within layouts/application
+  Rendered articles/show.html.erb within layouts/application (0.6ms)
+  Rendered layouts/_navigation.html.erb (0.5ms)
+  Rendered layouts/_message.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 32ms (Views: 30.0ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/articles" for 98.201.234.41 at 2020-01-03 18:12:30 +0000
+Cannot render console from 98.201.234.41! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.2ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  Rendered articles/index.html.erb within layouts/application (2.9ms)
+  Rendered layouts/_navigation.html.erb (0.6ms)
+  Rendered layouts/_message.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 34ms (Views: 33.0ms | ActiveRecord: 0.2ms)
+
+
+Started DELETE "/articles/15" for 98.201.234.41 at 2020-01-03 18:12:34 +0000
+Cannot render console from 98.201.234.41! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#destroy as HTML
+  Parameters: {"authenticity_token"=>"NQ70rXE+JUKOuLPt3aas2WyOv/Msh4Ud+X6/gZgCdW62aKL4i9o1yfuMortwodBRgJcrE3ULIzG7bXj0OkHvjg==", "id"=>"15"}
+  [1m[36mArticle Load (0.1ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" WHERE "articles"."id" = ? LIMIT ?[0m  [["id", 15], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (2.6ms)[0m  [1m[31mDELETE FROM "articles" WHERE "articles"."id" = ?[0m  [["id", 15]]
+  [1m[35m (12.4ms)[0m  [1m[36mcommit transaction[0m
+Redirected to https://c8f2d5cb7aa7415bac27d2414037e555.vfs.cloud9.us-east-2.amazonaws.com/articles
+Completed 302 Found in 24ms (ActiveRecord: 15.1ms)
+
+
+Started GET "/articles" for 98.201.234.41 at 2020-01-03 18:12:34 +0000
+Cannot render console from 98.201.234.41! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.2ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  Rendered articles/index.html.erb within layouts/application (2.8ms)
+  Rendered layouts/_navigation.html.erb (0.5ms)
+  Rendered layouts/_message.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 34ms (Views: 33.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/articles" for 98.201.234.41 at 2020-01-03 18:12:48 +0000
+Cannot render console from 98.201.234.41! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.2ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  Rendered articles/index.html.erb within layouts/application (3.5ms)
+  Rendered layouts/_navigation.html.erb (0.5ms)
+  Rendered layouts/_message.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 34ms (Views: 33.3ms | ActiveRecord: 0.2ms)
+
+
+Started DELETE "/articles/14" for 98.201.234.41 at 2020-01-03 18:12:51 +0000
+Cannot render console from 98.201.234.41! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#destroy as HTML
+  Parameters: {"authenticity_token"=>"7ZXfVdmElFGBanmAAJ+Mk4fEAsqtO/Hfd5vnwiGP0Hhu84kAI2CE2vReaNatmPAba92WKvS3V/M1iCC3g8xKmA==", "id"=>"14"}
+  [1m[36mArticle Load (0.1ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" WHERE "articles"."id" = ? LIMIT ?[0m  [["id", 14], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[31mDELETE FROM "articles" WHERE "articles"."id" = ?[0m  [["id", 14]]
+  [1m[35m (12.3ms)[0m  [1m[36mcommit transaction[0m
+Redirected to https://c8f2d5cb7aa7415bac27d2414037e555.vfs.cloud9.us-east-2.amazonaws.com/articles
+Completed 302 Found in 18ms (ActiveRecord: 12.8ms)
+
+
+Started GET "/articles" for 98.201.234.41 at 2020-01-03 18:12:51 +0000
+Cannot render console from 98.201.234.41! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.2ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  Rendered articles/index.html.erb within layouts/application (2.5ms)
+  Rendered layouts/_navigation.html.erb (0.5ms)
+  Rendered layouts/_message.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 32ms (Views: 31.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 129.7.121.66 at 2020-01-09 18:08:12 +0000
+Cannot render console from 129.7.121.66! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by WelcomeController#home as HTML
+  Rendering welcome/home.html.erb within layouts/application
+  Rendered welcome/home.html.erb within layouts/application (7.1ms)
+  Rendered layouts/_navigation.html.erb (0.6ms)
+  Rendered layouts/_message.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 346ms (Views: 338.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 129.7.121.66 at 2020-01-09 18:08:16 +0000
+Cannot render console from 129.7.121.66! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#home as HTML
+  Rendering welcome/home.html.erb within layouts/application
+  Rendered welcome/home.html.erb within layouts/application (0.4ms)
+  Rendered layouts/_navigation.html.erb (0.6ms)
+  Rendered layouts/_message.html.erb (0.9ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 32ms (Views: 30.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 129.7.121.66 at 2020-01-09 18:08:17 +0000
+Cannot render console from 129.7.121.66! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#home as HTML
+  Rendering welcome/home.html.erb within layouts/application
+  Rendered welcome/home.html.erb within layouts/application (0.4ms)
+  Rendered layouts/_navigation.html.erb (0.5ms)
+  Rendered layouts/_message.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 29ms (Views: 28.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/articles" for 129.7.121.66 at 2020-01-09 18:08:20 +0000
+Cannot render console from 129.7.121.66! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.3ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  Rendered articles/index.html.erb within layouts/application (6.7ms)
+  Rendered layouts/_navigation.html.erb (0.6ms)
+  Rendered layouts/_message.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 60ms (Views: 54.6ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/articles/2" for 129.7.121.66 at 2020-01-09 18:08:22 +0000
+Cannot render console from 129.7.121.66! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mArticle Load (0.2ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" WHERE "articles"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering articles/show.html.erb within layouts/application
+  Rendered articles/show.html.erb within layouts/application (0.6ms)
+  Rendered layouts/_navigation.html.erb (0.5ms)
+  Rendered layouts/_message.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 32ms (Views: 28.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/articles/2" for 129.7.121.66 at 2020-01-09 18:09:29 +0000
+Cannot render console from 129.7.121.66! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mArticle Load (0.2ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" WHERE "articles"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering articles/show.html.erb within layouts/application
+  Rendered articles/show.html.erb within layouts/application (0.6ms)
+  Rendered layouts/_navigation.html.erb (0.5ms)
+  Rendered layouts/_message.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 29ms (Views: 27.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/articles/2" for 129.7.121.66 at 2020-01-09 18:09:30 +0000
+Cannot render console from 129.7.121.66! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mArticle Load (0.1ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" WHERE "articles"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering articles/show.html.erb within layouts/application
+  Rendered articles/show.html.erb within layouts/application (0.6ms)
+  Rendered layouts/_navigation.html.erb (0.5ms)
+  Rendered layouts/_message.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 30ms (Views: 28.1ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/articles/2" for 129.7.121.66 at 2020-01-09 18:09:34 +0000
+Cannot render console from 129.7.121.66! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mArticle Load (0.1ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" WHERE "articles"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering articles/show.html.erb within layouts/application
+  Rendered articles/show.html.erb within layouts/application (0.6ms)
+  Rendered layouts/_navigation.html.erb (0.5ms)
+  Rendered layouts/_message.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 29ms (Views: 27.4ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/articles/2" for 129.7.121.66 at 2020-01-09 18:09:39 +0000
+Cannot render console from 129.7.121.66! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mArticle Load (0.1ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" WHERE "articles"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering articles/show.html.erb within layouts/application
+  Rendered articles/show.html.erb within layouts/application (0.6ms)
+  Rendered layouts/_navigation.html.erb (0.5ms)
+  Rendered layouts/_message.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 43ms (Views: 41.2ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/articles/2" for 129.7.121.66 at 2020-01-09 18:10:00 +0000
+Cannot render console from 129.7.121.66! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mArticle Load (0.1ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" WHERE "articles"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering articles/show.html.erb within layouts/application
+  Rendered articles/show.html.erb within layouts/application (0.7ms)
+  Rendered layouts/_navigation.html.erb (0.6ms)
+  Rendered layouts/_message.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 32ms (Views: 30.3ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/articles/2" for 129.7.121.66 at 2020-01-09 18:10:11 +0000
+Cannot render console from 129.7.121.66! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mArticle Load (0.1ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" WHERE "articles"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering articles/show.html.erb within layouts/application
+  Rendered articles/show.html.erb within layouts/application (0.6ms)
+  Rendered layouts/_navigation.html.erb (0.5ms)
+  Rendered layouts/_message.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 29ms (Views: 27.8ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/articles/2" for 129.7.121.66 at 2020-01-09 18:10:54 +0000
+Cannot render console from 129.7.121.66! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mArticle Load (0.1ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" WHERE "articles"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering articles/show.html.erb within layouts/application
+  Rendered articles/show.html.erb within layouts/application (4.8ms)
+  Rendered layouts/_navigation.html.erb (0.5ms)
+  Rendered layouts/_message.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 39ms (Views: 37.5ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/articles/2" for 129.7.121.66 at 2020-01-09 18:11:21 +0000
+Cannot render console from 129.7.121.66! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mArticle Load (0.1ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" WHERE "articles"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering articles/show.html.erb within layouts/application
+  Rendered articles/show.html.erb within layouts/application (0.9ms)
+  Rendered layouts/_navigation.html.erb (0.6ms)
+  Rendered layouts/_message.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 43ms (Views: 40.7ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/articles/2" for 129.7.121.66 at 2020-01-09 18:13:34 +0000
+Cannot render console from 129.7.121.66! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mArticle Load (0.1ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" WHERE "articles"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering articles/show.html.erb within layouts/application
+  Rendered articles/show.html.erb within layouts/application (1.0ms)
+  Rendered layouts/_navigation.html.erb (0.6ms)
+  Rendered layouts/_message.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 32ms (Views: 29.5ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/articles/2" for 129.7.121.66 at 2020-01-09 18:14:10 +0000
+Cannot render console from 129.7.121.66! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mArticle Load (0.1ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" WHERE "articles"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering articles/show.html.erb within layouts/application
+  Rendered articles/show.html.erb within layouts/application (0.9ms)
+  Rendered layouts/_navigation.html.erb (0.5ms)
+  Rendered layouts/_message.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 29ms (Views: 27.9ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/articles/2" for 129.7.121.66 at 2020-01-09 18:14:21 +0000
+Cannot render console from 129.7.121.66! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mArticle Load (0.1ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" WHERE "articles"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering articles/show.html.erb within layouts/application
+  Rendered articles/show.html.erb within layouts/application (1.0ms)
+  Rendered layouts/_navigation.html.erb (0.5ms)
+  Rendered layouts/_message.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 32ms (Views: 27.9ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/articles/2" for 129.7.121.66 at 2020-01-09 18:16:16 +0000
+Cannot render console from 129.7.121.66! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mArticle Load (0.1ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" WHERE "articles"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering articles/show.html.erb within layouts/application
+  Rendered articles/show.html.erb within layouts/application (1.1ms)
+  Rendered layouts/_navigation.html.erb (0.6ms)
+  Rendered layouts/_message.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 30ms (Views: 27.9ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/articles/2" for 129.7.121.66 at 2020-01-09 18:16:25 +0000
+Cannot render console from 129.7.121.66! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mArticle Load (0.1ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" WHERE "articles"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering articles/show.html.erb within layouts/application
+  Rendered articles/show.html.erb within layouts/application (1.1ms)
+  Rendered layouts/_navigation.html.erb (0.6ms)
+  Rendered layouts/_message.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 42ms (Views: 40.8ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/articles/2" for 129.7.121.66 at 2020-01-09 18:17:27 +0000
+Cannot render console from 129.7.121.66! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mArticle Load (0.1ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" WHERE "articles"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering articles/show.html.erb within layouts/application
+  Rendered articles/show.html.erb within layouts/application (1.1ms)
+  Rendered layouts/_navigation.html.erb (0.6ms)
+  Rendered layouts/_message.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 334ms (Views: 331.6ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/articles/2" for 129.7.121.66 at 2020-01-09 18:18:25 +0000
+Cannot render console from 129.7.121.66! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mArticle Load (0.1ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" WHERE "articles"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering articles/show.html.erb within layouts/application
+  Rendered articles/show.html.erb within layouts/application (1.1ms)
+  Rendered layouts/_navigation.html.erb (0.5ms)
+  Rendered layouts/_message.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 45ms (Views: 43.5ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/articles/2" for 129.7.121.66 at 2020-01-09 18:18:26 +0000
+Cannot render console from 129.7.121.66! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mArticle Load (0.1ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" WHERE "articles"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering articles/show.html.erb within layouts/application
+  Rendered articles/show.html.erb within layouts/application (1.1ms)
+  Rendered layouts/_navigation.html.erb (0.5ms)
+  Rendered layouts/_message.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 42ms (Views: 40.5ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/articles/2" for 129.7.121.66 at 2020-01-09 18:18:46 +0000
+Cannot render console from 129.7.121.66! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mArticle Load (0.1ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" WHERE "articles"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering articles/show.html.erb within layouts/application
+  Rendered articles/show.html.erb within layouts/application (1.1ms)
+  Rendered layouts/_navigation.html.erb (0.5ms)
+  Rendered layouts/_message.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 31ms (Views: 29.2ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/articles/2" for 129.7.121.66 at 2020-01-09 18:18:56 +0000
+Cannot render console from 129.7.121.66! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mArticle Load (0.1ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" WHERE "articles"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering articles/show.html.erb within layouts/application
+  Rendered articles/show.html.erb within layouts/application (1.1ms)
+  Rendered layouts/_navigation.html.erb (0.5ms)
+  Rendered layouts/_message.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 29ms (Views: 27.5ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/articles/2" for 129.7.121.66 at 2020-01-09 18:19:17 +0000
+Cannot render console from 129.7.121.66! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mArticle Load (0.1ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" WHERE "articles"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering articles/show.html.erb within layouts/application
+  Rendered articles/show.html.erb within layouts/application (1.1ms)
+  Rendered layouts/_navigation.html.erb (0.6ms)
+  Rendered layouts/_message.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 46ms (Views: 43.8ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/articles/2" for 129.7.121.66 at 2020-01-09 18:19:22 +0000
+Cannot render console from 129.7.121.66! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mArticle Load (0.1ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" WHERE "articles"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering articles/show.html.erb within layouts/application
+  Rendered articles/show.html.erb within layouts/application (1.1ms)
+  Rendered layouts/_navigation.html.erb (0.6ms)
+  Rendered layouts/_message.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 60ms (Views: 57.8ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/articles/2" for 129.7.121.66 at 2020-01-09 18:19:25 +0000
+Cannot render console from 129.7.121.66! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mArticle Load (0.1ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" WHERE "articles"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering articles/show.html.erb within layouts/application
+  Rendered articles/show.html.erb within layouts/application (1.1ms)
+  Rendered layouts/_navigation.html.erb (0.6ms)
+  Rendered layouts/_message.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 45ms (Views: 44.2ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/articles/2" for 129.7.121.66 at 2020-01-09 18:19:29 +0000
+Cannot render console from 129.7.121.66! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mArticle Load (0.1ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" WHERE "articles"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering articles/show.html.erb within layouts/application
+  Rendered articles/show.html.erb within layouts/application (1.0ms)
+  Rendered layouts/_navigation.html.erb (0.6ms)
+  Rendered layouts/_message.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 45ms (Views: 43.0ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/articles/2" for 129.7.121.66 at 2020-01-09 18:19:34 +0000
+Cannot render console from 129.7.121.66! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mArticle Load (0.1ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" WHERE "articles"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering articles/show.html.erb within layouts/application
+  Rendered articles/show.html.erb within layouts/application (1.1ms)
+  Rendered layouts/_navigation.html.erb (0.5ms)
+  Rendered layouts/_message.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 58ms (Views: 56.7ms | ActiveRecord: 0.1ms)
+
+
