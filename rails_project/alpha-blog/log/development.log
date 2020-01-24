@@ -13401,3 +13401,136 @@ Processing by ArticlesController#new as HTML
 Completed 200 OK in 55ms (Views: 46.0ms | ActiveRecord: 0.7ms)
 
 
+Started GET "/" for 129.7.121.66 at 2020-01-24 18:21:35 +0000
+Cannot render console from 129.7.121.66! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by WelcomeController#home as HTML
+  Rendering welcome/home.html.erb within layouts/application
+  Rendered welcome/home.html.erb within layouts/application (9.0ms)
+  Rendered layouts/_navigation.html.erb (0.7ms)
+  Rendered layouts/_message.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 480ms (Views: 471.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 129.7.121.66 at 2020-01-24 18:21:38 +0000
+Cannot render console from 129.7.121.66! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#home as HTML
+  Rendering welcome/home.html.erb within layouts/application
+  Rendered welcome/home.html.erb within layouts/application (0.5ms)
+  Rendered layouts/_navigation.html.erb (0.6ms)
+  Rendered layouts/_message.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 34ms (Views: 32.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 129.7.121.66 at 2020-01-24 18:21:51 +0000
+Cannot render console from 129.7.121.66! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#home as HTML
+  Rendering welcome/home.html.erb within layouts/application
+  Rendered welcome/home.html.erb within layouts/application (0.4ms)
+  Rendered layouts/_navigation.html.erb (0.6ms)
+  Rendered layouts/_message.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 35ms (Views: 34.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/articles" for 129.7.121.66 at 2020-01-24 18:21:53 +0000
+Cannot render console from 129.7.121.66! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.3ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  Rendered articles/index.html.erb within layouts/application (8.2ms)
+  Rendered layouts/_navigation.html.erb (0.5ms)
+  Rendered layouts/_message.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 49ms (Views: 38.6ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/articles" for 129.7.121.66 at 2020-01-24 18:24:27 +0000
+Cannot render console from 129.7.121.66! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.2ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  Rendered articles/index.html.erb within layouts/application (16.9ms)
+Completed 500 Internal Server Error in 20ms (ActiveRecord: 0.2ms)
+
+
+  
+ActionView::Template::Error (undefined method `username' for nil:NilClass):
+    12:                 </div>
+    13:                 <div class="article-body">
+    14:                     <%= truncate(article.description, length: 100) %>
+    15:                     <small>Created by <%= article.user.username %>, 
+    16:                     <%= time_age_in_words(article.created_at) %> Ago,
+    17:                     last updated: <%= article.updated_at %> Ago</small>
+    18:                                     
+  
+app/views/articles/index.html.erb:15:in `block in _app_views_articles_index_html_erb__1978716931884814423_70020684156820'
+app/views/articles/index.html.erb:5:in `_app_views_articles_index_html_erb__1978716931884814423_70020684156820'
+  Rendering /home/ubuntu/.rvm/gems/ruby-2.6.3/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /home/ubuntu/.rvm/gems/ruby-2.6.3/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /home/ubuntu/.rvm/gems/ruby-2.6.3/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (3.4ms)
+  Rendering /home/ubuntu/.rvm/gems/ruby-2.6.3/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/ubuntu/.rvm/gems/ruby-2.6.3/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.5ms)
+  Rendering /home/ubuntu/.rvm/gems/ruby-2.6.3/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/ubuntu/.rvm/gems/ruby-2.6.3/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /home/ubuntu/.rvm/gems/ruby-2.6.3/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (23.7ms)
+Started GET "/articles" for 129.7.121.66 at 2020-01-24 18:25:56 +0000
+Cannot render console from 129.7.121.66! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.2ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  Rendered articles/index.html.erb within layouts/application (99.3ms)
+Completed 500 Internal Server Error in 103ms (ActiveRecord: 0.2ms)
+
+
+  
+ActionView::Template::Error (undefined method `time_age_in_words' for #<#<Class:0x00007f5de40842f8>:0x00007f5de93bf288>
+Did you mean?  time_ago_in_words):
+    13:                 <div class="article-body">
+    14:                     <%= truncate(article.description, length: 100) %>
+    15:                     <small>Created by <%= article.user.username if article.user %>, 
+    16:                     <%= time_age_in_words(article.created_at) %> Ago,
+    17:                     last updated: <%= article.updated_at %> Ago</small>
+    18:                                     
+    19:                 </div>
+  
+app/views/articles/index.html.erb:16:in `block in _app_views_articles_index_html_erb__1978716931884814423_70020660831200'
+app/views/articles/index.html.erb:5:in `_app_views_articles_index_html_erb__1978716931884814423_70020660831200'
+  Rendering /home/ubuntu/.rvm/gems/ruby-2.6.3/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /home/ubuntu/.rvm/gems/ruby-2.6.3/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /home/ubuntu/.rvm/gems/ruby-2.6.3/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (6.3ms)
+  Rendering /home/ubuntu/.rvm/gems/ruby-2.6.3/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/ubuntu/.rvm/gems/ruby-2.6.3/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.5ms)
+  Rendering /home/ubuntu/.rvm/gems/ruby-2.6.3/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/ubuntu/.rvm/gems/ruby-2.6.3/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /home/ubuntu/.rvm/gems/ruby-2.6.3/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (22.0ms)
+Started GET "/articles" for 129.7.121.66 at 2020-01-24 18:26:26 +0000
+Cannot render console from 129.7.121.66! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.2ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  Rendered articles/index.html.erb within layouts/application (36.2ms)
+  Rendered layouts/_navigation.html.erb (0.6ms)
+  Rendered layouts/_message.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 76ms (Views: 74.5ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/articles" for 129.7.121.66 at 2020-01-24 18:28:36 +0000
+Cannot render console from 129.7.121.66! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.2ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  Rendered articles/index.html.erb within layouts/application (8.5ms)
+  Rendered layouts/_navigation.html.erb (0.6ms)
+  Rendered layouts/_message.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 125ms (Views: 123.3ms | ActiveRecord: 0.3ms)
+
+
