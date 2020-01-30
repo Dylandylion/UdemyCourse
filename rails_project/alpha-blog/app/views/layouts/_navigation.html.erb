@@ -18,15 +18,54 @@
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
           <%= link_to "New Articles", new_article_path,class: "dropdown-item" %>
-          <%= link_to "Signup", signup_path,class: "dropdown-item" %>
-        
         </div>
       </li>
-      
+    <% if logged_in? %>
+     <ul class="navbar-nav mr-auto">
+       <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Your Profile
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <%= link_to "Edit your profile", edit_user_path(current_user), class: "dropdown-item" %>
+          <%= link_to "View your profile", user_path(current_user), class: "dropdown-item" %>
+        </div>
+      </li>
+    </ul>
+    <% end %>
     </ul>
     <form class="form-inline my-2 my-lg-0">
       <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
       <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
     </form>
   </div>
+  
+
+
+
+<% if logged_in? %>
+
+  <form class="form-inline my-2 my-lg-0" >
+    <button class="btn btn-outline-primary my-2 my-sm-0">
+      <%= link_to 'Log out', logout_path, id:"logged", method: :delete %>
+    </button>
+  </form>
+  
+<% else %>
+<form class="form-inline my-2 my-lg-0" >
+    <button class="btn btn-outline-primary my-2 my-sm-0">
+      <%= link_to 'Log in', login_path, id:"logged" %>
+    </button>
+  </form>
+  <form class="form-inline my-2 my-lg-0" >
+    <button class="btn btn-outline-primary my-2 my-sm-0">
+      <%= link_to 'Sign up', signup_path, id:"logged" %>
+    </button>
+  </form>
+
+<% end %>
+   
+
+
+  
 </nav>
