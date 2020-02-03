@@ -4,7 +4,7 @@
         <%= gravatar_for @user, size: 150 %>
     </div>
 </div>
-<h4 align="center"> <%= @user.username %> </h4>
+<h4 align="center"> <%= @user.username %>'s Articles </h4>
 <div class="col-sm-2 offset-sm-5 bg-light">
     <%= will_paginate @user_articles%>
 </div>
