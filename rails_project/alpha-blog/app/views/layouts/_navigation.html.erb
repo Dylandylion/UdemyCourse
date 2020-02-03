@@ -12,15 +12,19 @@
         <%= link_to "Articles", articles_path, class:"nav-link" %>
       </li>
       
-      <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          Action
-        </a>
-        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <%= link_to "New Articles", new_article_path,class: "dropdown-item" %>
-        </div>
-      </li>
+      <!--<li class="nav-item dropdown">-->
+      <!--  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">-->
+      <!--    Action-->
+      <!--  </a>-->
+      <!--  <div class="dropdown-menu" aria-labelledby="navbarDropdown">-->
+      <!--    <%= link_to "New Articles", new_article_path,class: "dropdown-item" %>-->
+      <!--    <%= link_to "User Page", users_path,class: "dropdown-item" %>-->
+      <!--  </div>-->
+      <!--</li>-->
+      <%= link_to "User Page", users_path,class:"nav-link" %>
+     
     <% if logged_in? %>
+    <%= link_to "New Articles", new_article_path,class:"nav-link"%>
      <ul class="navbar-nav mr-auto">
        <li class="nav-item dropdown">
         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
